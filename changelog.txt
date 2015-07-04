@@ -1,0 +1,12 @@
+# Changelog
+Changelog for builds
+
+7/4 - 1st build
+Battery bar
+Weather in status bar
+weather in lockscreen
+layers in settings
+SuperSU in settings
+Expanded desktop
+arrow keys for navigation
+

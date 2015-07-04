@@ -1,2 +1,0 @@
-# Changelog
-Changelog for builds
