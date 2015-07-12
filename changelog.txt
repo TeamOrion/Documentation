@@ -10,3 +10,24 @@ SuperSU in settings
 Expanded desktop
 arrow keys for navigation
 
+2nd build
+Slim updates
+Orion Kernel for falcon
+msim fixes
+Orion bootanimation (wip) 
+Add cellular networks in settings dashboard
+set default sim1,sim2, notification tones
+Add smart pulldown to SlimActions
+statusbar ticker
+Pre-rooted
+updated from r5 to r8
+Layers Manager updated
+Added network speed 
+Music tile
+reboot tile
+Non intrusive call UI switch
+add option to disable search bar in recents
+Carrier label (single sim only)
+double tap on navbar to sleep
+Soft reboot
+
