@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
 <!-- Falcon -->
-
   <project name="TeamOrion/device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="lp5.1" />
   <project name="TeamOrion/device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="lp5.1" />
   <project name="TeamOrion/Orion_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="Orion" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
+
+<!--Hammerhead -->
+  <project name="SlimRoms/kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="lp5.1" />
+  <project name="TeamOrion/device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="lp5.1" />
+  <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-12.1" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.1" />
 </manifest>
