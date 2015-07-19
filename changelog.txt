@@ -59,6 +59,7 @@ Notification light
 Notification access
 App notifications
 headsup fixes
+add switches to dashboard
 slimdim
 
 
