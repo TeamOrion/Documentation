@@ -1,7 +1,7 @@
 # Changelog
 Changelog for builds
 
-7/4 - 1st build
+4th July - 1st build
 Battery bar
 Weather in status bar
 weather in lockscreen
@@ -10,7 +10,7 @@ SuperSU in settings
 Expanded desktop
 arrow keys for navigation
 
-2nd build
+12th July - 2nd build
 Slim updates
 Orion Kernel for falcon
 msim fixes
