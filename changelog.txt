@@ -31,3 +31,34 @@ Carrier label (single sim only)
 double tap on navbar to sleep
 Soft reboot
 
+3rd build - 18th July
+Changelog build 3
+
+Task Manager
+Lock screen shortcuts
+Left clock
+Updated bootanimation
+Enable Advanced reboot by default
+Move screen pinning to recents
+Fix carrier label for msim
+Viper4Audio, removed AudioFX
+Kernel Adiutor
+Add kernel adiutor in settings
+Eleven Music player
+Slim updates
+Clear all positions
+FAB button in recents
+reorganize recents
+Force expanded notifications
+seconds clock
+clock fonts
+volume long press skip tracks
+Enable performance profiles 
+Charging sounds/vibrate
+Notification light
+Notification access
+App notifications
+headsup fixes
+slimdim
+
+
