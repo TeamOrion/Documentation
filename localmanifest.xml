@@ -11,4 +11,14 @@
   <project name="TeamOrion/device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="lp5.1" />
   <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-12.1" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.1" />
+  
+<!--HTC One M8 -->
+  <project name="TeamOrion/android_device_htc_m8" path="device/htc/m8" remote="github" revision="orion"/>
+  <project name="SlimRoms/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="lp5.1"/>
+  <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-12.1"/>
+
+<!--Condor -->
+  <project name="Team/android_device_motorola_condor" path="device/motorola/condor" remote="github" revision="orion"/>
+  <project name="SlimRoms/android_kernel_motorola_msm8610" path="kernel/motorola/msm8610" remote="github" revision="lp5.1"/>
+  <project name="Pinky-Inky-and-Clyde/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1"/>
 </manifest>
