@@ -21,4 +21,21 @@
   <project name="TeamOrion/device_motorola_condor" path="device/motorola/condor" remote="github" revision="orion"/>
   <project name="SlimRoms/android_kernel_motorola_msm8610" path="kernel/motorola/msm8610" remote="github" revision="lp5.1"/>
   <project name="Pinky-Inky-and-Clyde/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1"/>
-</manifest>
+
+<!--Grouper-->
+  <project name="TeamOrion/device_asus_grouper" path="device/asus/grouper" remote="github" revision="lp5.1" />
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-12.1" />
+  <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-12.1" />
+  <project path="vendor/elan" name="TheMuppets/proprietary_vendor_elan" remote="github" revision="cm-12.1" />
+  <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" remote="github" revision="cm-12.1" />
+  <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="github" revision="cm-12.1" />
+  <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-12.1" />
+  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-12.1" />
+  <project path="kernel/asus/grouper" name="SlimRoms/kernel_asus_grouper" remote="github" revision="lp5.1" />
+
+<!--Armani-->
+ <project name="TeamOrion/device_xiaomi_armani" path="device/xiaomi/armani" remote="github" revision="lp5.1" />
+ <project path="kernel/xiaomi/armani" name="rebelos/android_kernel_xiaomi_armani" remote="github" revision="lp5.1" />
+ <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
+ 
+ </manifest>
