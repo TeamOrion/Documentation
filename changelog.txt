@@ -31,8 +31,7 @@ Carrier label (single sim only)
 double tap on navbar to sleep
 Soft reboot
 
-3rd build - 18th July
-Changelog build 3
+18th July - 3rd build
 
 Task Manager
 Lock screen shortcuts
@@ -62,4 +61,20 @@ headsup fixes
 add switches to dashboard
 slimdim
 
+28th July - 4th build
 
+non-intrusive calls fixed
+Clear all recents fixed
+Rename AudioFX tile to viper
+Remove AudioFx,MusicFx
+Long press lock icon to sleep
+Fix saving default sim
+Unhide unused sim
+Updated kernel [falcon]
+New Bootanimation
+Lockscreen visualizer settings and improvements
+custom dpi value
+Enable unknown sources by default
+Add anti piracy support [Thanks Dave Kessler]
+webview support
+other updates
