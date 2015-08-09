@@ -14,7 +14,7 @@ Add a &amp; after the word files. So, using the above example, this is what you 
 
 https://www.androidfilehost.com/?w=files&amp;flid=34631
 
-For the device name, open terminal and type in getprop ro.product.device. Use this name in ota_lollipop.xml in the mentioned place.
+For the device name, open terminal and type in getprop ro.orion.device. Use this name in ota_lollipop.xml in the mentioned place.
 
 Now, you need to upload to a hosting site with hotlinking support. We use Dropbox. Upload this xml file to dropbox (not in the public folder). If your link ends with a zero, change it to one.
 
