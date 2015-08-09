@@ -1,0 +1,39 @@
+#
+# OTA XML
+#
+# <?xml version="1.0" encoding="UTF-8"?>
+# <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+#   <Stable>
+#     <*devicename*>
+#       <Filename>orion-falcon-5.1.1.release.1.3-OFFICIAL-20150731</Filename>
+#       <RomUrl>*enter romurl link from ota_lollipop</RomUrl>
+#       <GappsUrl>http://209.95.39.164/Gapps/Lollipop</GappsUrl>
+#      </*devicename*>
+#   </Stable>
+# </SlimOTA>
+#
+# Note:
+# * Multiple devices can be added in the xml file
+# * You can define any tags that end with 'Url'. These tags will be added in the UI automatically
+#
+ota_url=*enter link to ota_lollipop.xml*
+release_type=Stable
+device_name=ro.product.device
+#
+# VERSION
+#
+# Example: Parse the 20150426 from the version name
+#
+# Version name: orion-falcon-5.1.1.release.1.3-OFFICIAL-20150731
+# Version delimiter: -
+# Version position: 3 (zero based)
+# Version format: yyyyMMdd
+#
+# Note :
+# * Version name must contain a parseable date
+# * Version name must match with the Filename in the OTA XML file in order to compare the date
+#
+version_name=ro.modversion
+version_delimiter=-
+version_position=3
+version_format=yyyyMMdd
