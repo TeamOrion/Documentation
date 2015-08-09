@@ -4,7 +4,9 @@ We need two files, ota-lollipop.xml and ota_conf
 
 Use the given templates for ota_lollipop.xml and ota_conf
 
-You need to add &amp; to your androidfilehost folder. 
+Create a folder for your builds of OrionLp. The folder link will be used in the ota files.
+
+You need to add &amp; to your androidfilehost folder link. 
 
 For example, if your folder link is https://www.androidfilehost.com/?w=files&flid=34631,
 
