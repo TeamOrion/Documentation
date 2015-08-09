@@ -1,0 +1,29 @@
+This guide will help you add OTA functionality to your Orion build. 
+
+We need two files, ota-lollipop.xml and ota_conf
+
+Use the given templates for ota_lollipop.xml and ota_conf
+
+You need to add &amp; to your androidfilehost folder. 
+
+For example, if your folder link is https://www.androidfilehost.com/?w=files&flid=34631,
+
+Add a &amp; after the word files. So, using the above example, this is what you input in romurl:
+
+https://www.androidfilehost.com/?w=files&amp;flid=34631
+
+For the device name, open terminal and type in getprop ro.product.device. Use this name in ota_lollipop.xml in the mentioned place.
+
+Now, you need to upload to a hosting site with hotlinking support. We use Dropbox. Upload this xml file to dropbox (not in the public folder). If your link ends with a zero, change it to one.
+
+For example, if your link is https://www.dropbox.com/s/tkgmb54b2dhjxhz/ota_lollipop.xml?dl=0, change it to https://www.dropbox.com/s/tkgmb54b2dhjxhz/ota_lollipop.xml?dl=1
+This automatically downloads the file. 
+
+We do not want this link to change when the xml file is edited. To do this, install dropbox in your pc, and sync the dropbox folder. Now you can edit the file locally, and it'll sync, without changing the link.
+
+
+Now, moving to the ota_conf, you need to make this file in your orion project's root folder. SlimOTA's makefile will automatically take it to the desired location. 
+Use the command "touch ota_conf" in your root folder, and use the template for ota_conf.
+
+That's about it! Whenever you release a new build, just update the filename in ota_lollipop.xml. Nothing else needs to be updated.
+
