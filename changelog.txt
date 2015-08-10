@@ -1,7 +1,7 @@
 # Changelog
 Changelog for builds
 
-4th July - 1st build
+4th July - 1st build [1.0]
 Battery bar
 Weather in status bar
 weather in lockscreen
@@ -10,7 +10,7 @@ SuperSU in settings
 Expanded desktop
 arrow keys for navigation
 
-12th July - 2nd build
+12th July - 2nd build [1.1]
 Slim updates
 Orion Kernel for falcon
 msim fixes
@@ -31,7 +31,7 @@ Carrier label (single sim only)
 double tap on navbar to sleep
 Soft reboot
 
-18th July - 3rd build
+18th July - 3rd build [1.2]
 
 Task Manager
 Lock screen shortcuts
@@ -61,7 +61,7 @@ headsup fixes
 add switches to dashboard
 slimdim
 
-28th July - 4th build
+28th July - 4th build [1.3]
 
 non-intrusive calls fixed
 Clear all recents fixed
@@ -78,3 +78,20 @@ Enable unknown sources by default
 Add anti piracy support [Thanks Dave Kessler]
 webview support
 other updates
+
+10th Aug - 5th build [1.4]
+update to r9
+SlimOTA [thanks to fusionjack]
+updated Kernel Adiutor
+updated toolchains
+new headsup implementation
+slimdim improvements
+fix double tap on navbar to sleep
+update APN's
+return of silent mode
+fix vizualizer
+in-call vibration
+update rro idmap
+slim updates
+optimizaition in bionic string routines
+device/kernel updates
