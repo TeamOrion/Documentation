@@ -90,6 +90,7 @@ fix double tap on navbar to sleep
 update APN's
 return of silent mode
 fix vizualizer
+Gesture Lockscreen
 in-call vibration
 update rro idmap
 slim updates
