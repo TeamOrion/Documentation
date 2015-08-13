@@ -4,8 +4,8 @@ ota_url=https://www.dropbox.com/s/tkgmb54b2dhjxhz/ota_lollipop.xml?dl=1
 release_type=Stable
 device_name=ro.orion.device
  
-#example ro.orion.version=orion-5.1.1.release.1.4-OFFICIAL-20150809.
-version_source=ro.orion.version
+#example ro.orion.version=orion-falcon-5.1.1.release.1.4-OFFICIAL-20150812
+version_source=ro.modversion
 version_delimiter=-
-version_position=3
+version_position=4
 version_format=yyyyMMdd
