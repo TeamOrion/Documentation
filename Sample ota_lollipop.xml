@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
-        <"your device name">
-            <Filename>Orion zip file name</Filename>
+        <"your device name(ro.orion.device in build.prop)">
+            <Filename>Orion zip file name(ro.modversion)[orion-device-5.1.1.release.1.x-OFFICIAL-2015mmdd]</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
