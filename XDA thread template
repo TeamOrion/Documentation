@@ -1,68 +1,190 @@
-POST #1
+[CENTER][IMG]http://i.imgur.com/5bJrJdT.png[/IMG][/CENTER]
 
-[CENTER][IMG]http://i.imgur.com/5bJrJdT.png[/IMG]
+[CENTER][SIZE="6"]Official Google Plus community:- [/SIZE][/CENTER]
 
-[B][SIZE="6"]Official Google Plus community:- [/SIZE][/B]
+[CENTER][SIZE="6"][URL="https://plus.google.com/communities/111860173543944260545"]Click me[/URL][/SIZE][/CENTER]
 
-[SIZE="6"][URL="https://plus.google.com/communities/111860173543944260545"]Click me[/URL][/SIZE]
-
-[B][CODE][CENTER]/*
+[CENTER][CODE]
+/*
 * Your warranty is now void.
-*
 * We are not responsible for bricked devices, dead SD cards,
 * thermonuclear war, or you getting fired because the alarm app failed. Please
 * do some research if you have any concerns about features included in this ROM
 * before flashing it! YOU are choosing to make these modifications, and if
 * you point the finger at us for messing up your device, we will laugh at you.
-*/[/CENTER][/CODE][/B][/CENTER]
+*/
+[/code][/CENTER]
 
-[IMG]http://i.imgur.com/csd4FmM.png[/IMG]
+[CENTER][IMG]http://i.imgur.com/BsFGsim.png[/IMG][/CENTER]
 
-[SIZE="4"][B]OrionLP is a project based on slim. The name Orion was chosen as a representation of the beauty and vastness of world around us (Too much Philosophy, eh? [emoji14]). We started this project for falcon (Moto G), to make a stable Rom which would include Bitsyko layers and important customization. The Rom is built with Uber toolchain which delivers awesome smoothness and is packed with a custom kernel built from ground-up to ensure good performance [WIP].  Needless to say, this project is a product of our hobbies and the love we bore for Android. [/B][/SIZE]
+[SIZE="4"]OrionLP is a project based on slim. The name Orion was chosen as a representation of the beauty and vastness of world around us (Too much Philosophy, eh? :P ). We started this project for falcon (Moto G), to make a stable Rom which would include Bitsyko layers and important customization. The Rom is built with Uber toolchain which delivers awesome smoothness and is packed with a custom kernel built from ground-up to ensure good performance [WIP].  Needless to say, this project is a product of our hobbies and the love we bore for Android. [/SIZE]
 
-[IMG]http://i.imgur.com/HthZuB7.png[/IMG]
+[CENTER][IMG]http://i.imgur.com/I41PRD7.png[/IMG][/CENTER]
 
-[SIZE="5"][B][CENTER]@sohamjambhekar
+[SIZE="5"][CENTER]
+ [MENTION=4402830]SohamJ[/MENTION]
  [MENTION=4139665]martinusbe[/MENTION]
  [MENTION=5272996]srisurya95[/MENTION]
  [MENTION=5857055]Flashhhh[/MENTION]
  [MENTION=6484426]yeshwanthvshenoy[/MENTION]
  [MENTION=5175623]Aayushya[/MENTION]
 Alex
-Shelbin[/CENTER][/B][/SIZE]
+Shelbin
+[/CENTER][/SIZE]
 
-[IMG]http://i.imgur.com/YglCDmb.png[/IMG]
-[B][CENTER][SIZE="4"]RRO Layers 2.1 support
-Extra commits for more themeing options (@USAN03)
-Built with UBER Tool Chain
-Statusbar Customization
-Quick Settings Customization
-Battery Bar
-Master Heads-Up Switch
-Lockscreen Weather
+[CENTER][IMG]http://i.imgur.com/MPyVD2B.png[/IMG][/CENTER]
+[CENTER]
+[B][I][U]Features[/U][/I][/B]
+[code]
+*Main Features List* - 
+Theming
+Bitskyko layers [RRO]
+
+Quick Settings
+Quick Settings tiles
+Smart pull-down
+quick pull-down
+Status bar header weather and LockClock
+Additional tiles - Music, reboot, LTE, Expanded Desktop, visualizer
+
+Status Bar
+Clock alignment - right and center
+Clock color,font
+Clock seconds
+Am/Pm settings
+Date format, style
+Battery icon mods
+Battery bar
+Notification ticker
+Network activity arrows
+Network traffic
+Double tap to sleep on status bar
+Carrier Label (Single sim only)
+Task Manager
+
+Navigation
+Slim Pie
+Slim dim
+Navbar dimensions
+Navbar buttons
+Virtual arrow keys
+menu key location and visibility
+Double tap to sleep on nav-bar
+slim dim
+
+Recent apps panel
+Slim recents
+show only running apps
+Disable search bar in recents
+Clear all FAB
+screen pinning
+
 Expanded Desktop
-Recent Panel Customization[/SIZE][/CENTER][/B]
 
-[IMG]http://i.imgur.com/iCxIyJA.png[/IMG]
+Lockscreen
+Lockscreen Weather
+Lockscreen visualizer
+Lockscreen shortcuts
+Gesture lockscreen
 
-[B][CENTER][SIZE="4"]Copy the ROM and Gapps in SD card.
+Kernel Adiutor
+
+OTA
+
+Display
+Live Display
+LCD Density
+Ambient display
+
+Sound and Notifications
+Charging sounds
+Volume rocker music controls
+Heads up
+Force expand notifications
+Notification Light
+true silent mode
+
+Dashboard switches for wifi and bluetooth
+
+Viper4Android Thanks to viper520﻿
+[/code]
+[/CENTER]
+
+[CENTER][IMG] http://i.imgur.com/NvzxLOB.png[/IMG][/CENTER]
+
+[IMG]http://i.imgur.com/wCRov7W.jpg[/IMG]
+
+[CENTER][IMG]http://i.imgur.com/6YmQo8b.png[/IMG][/CENTER]
+
+[CENTER][SIZE="4"]
+Copy the ROM and Gapps in SD card.
 Go to your recovery - Wipe Data, Cache and Dalvik Cache.
 Install ROM and Gapps zip.
-Flash SuperSU zip
+Install forcess.zip for single sim users
 Reboot - 1st boot takes around 3-4 minutes. 
-Enjoy [/SIZE][/CENTER][/B]
+Enjoy
+[/SIZE][/CENTER]
 
-[IMG]http://i.imgur.com/mRUCzVV.png[/IMG]
+[CENTER][IMG]http://i.imgur.com/W9rXu6v.png[/IMG][/CENTER]
 
-[B][CENTER][SIZE="5"][URL="<put link here>"]ROM[/URL][/SIZE][/CENTER][/B]
+[CENTER][SIZE="5"]ROM -[URL="https://www.androidfilehost.com/?a=show&w=files&flid=34631"]Download[/URL][/SIZE][/CENTER]
+[CENTER][SIZE="5"]Gapps - [URL="http://forum.xda-developers.com/slimroms/general/gapps-official-slim-gapps-trds-slimkat-t2792842"]Gapps[/URL][/SIZE][/CENTER]
+[CENTER][SIZE="5"]forcess.zip - [URL="https://www.androidfilehost.com/?fid=24052804347767605"]Single sim[/URL][/SIZE][/CENTER]
+[CENTER][SIZE="5"]FM Radio - [url="http://forum.xda-developers.com/moto-g/themes-apps/port-fm-radio-t3015976"]FM[/url][/SIZE][/CENTER]
 
-[CENTER][B][SIZE="5"][URL="http://forum.xda-developers.com/slimroms/general/gapps-official-slim-gapps-trds-slimkat-t2792842"]Gapps[/URL][/SIZE][/B][/CENTER]
+[CENTER][IMG]http://i.imgur.com/7CjxFLJ.png[/IMG][/CENTER]
+[CENTER][B]
+Latest build -
+10th Aug - 5th build [1.4]
+update to r9
+SlimOTA [thanks to fusionjack]
+updated Kernel Adiutor
+updated toolchains
+new headsup implementation
+slimdim improvements
+fix double tap on navbar to sleep
+update APN's
+return of silent mode
+fix vizualizer
+Gesture Lockscreen
+in-call vibration
+update rro idmap
+slim updates
+optimizaition in bionic string routines
+device/kernel updates
+[/CENTER][/B]
+[CENTER][code]
+4th July - 1st build [1.0]
+Battery bar
+Weather in status bar
+weather in lockscreen
+layers in settings
+SuperSU in settings
+Expanded desktop
+arrow keys for navigation
 
-[IMG]http://i.imgur.com/w5sdQ0T.png[/IMG]
+12th July - 2nd build [1.1]
+Slim updates
+Orion Kernel for falcon
+msim fixes
+Orion bootanimation (wip) 
+Add cellular networks in settings dashboard
+set default sim1,sim2, notification tones
+Add smart pulldown to SlimActions
+statusbar ticker
+Pre-rooted
+updated from r5 to r8
+Layers Manager updated
+Added network speed 
+Music tile
+reboot tile
+Non intrusive call UI switch
+add option to disable search bar in recents
+Carrier label (single sim only)
+double tap on navbar to sleep
+Soft reboot
 
-[CENTER][HIDE]
-
-Changelog build 1.2
+18th July - 3rd build [1.2]
 
 Task Manager
 Lock screen shortcuts
@@ -83,83 +205,54 @@ Force expanded notifications
 seconds clock
 clock fonts
 volume long press skip tracks
-Enable performance profiles*
+Enable performance profiles 
 Charging sounds/vibrate
 Notification light
 Notification access
 App notifications
 headsup fixes
+add switches to dashboard
 slimdim
-Add switches to wifi and bluetooth in dashboard
-other changes﻿
 
-Sent from my Moto G using Tapatalk
+28th July - 4th build [1.3]
 
+non-intrusive calls fixed
+Clear all recents fixed
+Rename AudioFX tile to viper
+Remove AudioFx,MusicFx
+Long press lock icon to sleep
+Fix saving default sim
+Unhide unused sim
+Updated kernel [falcon]
+New Bootanimation
+Lockscreen visualizer settings and improvements
+custom dpi value
+Enable unknown sources by default
+Add anti piracy support [Thanks Dave Kessler]
+webview support
+other updates
+ [/code][/CENTER]
 
-12/07/2015
-Bumped to v1.1
-Updated AOSP Base to 5.1.1 r_8
-Slim updates
-Updated Layers Manager to 4.2
-Added StatusBar Ticker
-Added Smart pulldown to slim actions
-Added statusbar Network traffic
-Added soft reboot
-Added doubletap to sleep in navigationbar
-Added carrier label
-Non intrusive call UI switch
-Added reboot tile
-Added Music tile
-Disable search bar in recents
-Orion Kernel for falcon
-Msim fixes
-Orion bootanimation (wip) 
-Add cellular networks in settings dashboard
-set default sim1,sim2, notification tones
-Pre-rooted
-Initial release[/HIDE][/CENTER]
+[CENTER][IMG]http://i.imgur.com/EOUnihr.png[/IMG][/CENTER]
 
-[IMG]http://i.imgur.com/PgSgi3H.png[/IMG]
+[CENTER][SIZE="5"][URL="https://github.com/TeamOrion"]Team Orion[/URL][/SIZE][/CENTER]
+[CENTER][SIZE="5"][url="https://github.com/TeamOrion/Orion_kernel_motorola_msm8226"]Orion Kernel[/url][/SIZE][/CENTER]
+[CENTER][IMG]http://i.imgur.com/AW5lVGt.png[/IMG][/CENTER]
 
-[B][CENTER][SIZE="6"][URL="https://github.com/TeamOrion"]Team Orion[/URL][/SIZE][/CENTER][/B]
-
-
-
-[IMG]http://i.imgur.com/MDFwPYq.png[/IMG]
-
-[CENTER][B][SIZE="4"]SlimRoms
+[CENTER][SIZE="4"]
+SlimRoms
 CyanogenMod
 TipsyOS, martinusbe (big thanks)
 Layers team
+ViPER520
 BrokenROM
 rob77
 Fabio-san
 TeamUB
 Team SOKP
-Others,who expected a credit but we didn't give
-rebelos[/SIZE][/B][/CENTER]
-
-
-POST #2
-
-[IMG]http://i.imgur.com/gdO7IKZ.png[/IMG]
-
-[IMG]http://i.imgur.com/wCRov7W.jpg[/IMG]
-
-
-POST #3
-
-[IMG]http://i.imgur.com/7Px01Lo.png[/IMG]
-
-[SIZE="5"][B][U]Support us by downloading our RRO Theme[/U][/B][/SIZE]
-
-[CENTER][SIZE="6"][B][URL="https://play.google.com/store/apps/details?id=com.oriondroids.RemiX"]RemiX[/URL][/B][/SIZE][/CENTER]
-
-[IMG]http://i.imgur.com/GnqolnW.jpg[/IMG]
-
-[SIZE="6"][B]Dont want to donate?[/B][/SIZE]
-
-[SIZE="5"][B]Download our free RRO Theme from playstore and rate it:[/B][/SIZE]
-
-[CENTER][SIZE="5"][B][URL="https://play.google.com/store/apps/details?id=bitsykolayers.florid"]Florid[/URL]
-[/B][/SIZE][/CENTER]
+SlimSaber
+Euphoria
+Thanks to Sathish Saju for testing
+rebelos
+Grarak
+[/SIZE][/CENTER]
