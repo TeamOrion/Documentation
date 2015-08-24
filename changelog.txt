@@ -96,3 +96,33 @@ update rro idmap
 slim updates
 optimizaition in bionic string routines
 device/kernel updates
+
+24th Aug - 6th build [1.5]
+Nav rings
+heads up tile - slim implementation [tile works if heads up is on in settings]
+reduce battery padding
+fix OTA
+Fix recents clear all. Also make bottom right default
+Fix settings>more>cellular networks for msim
+Lockscreen wallpaper 
+Layers type 3 commits 
+prevent audio ducking
+vectorize universe and layers icons
+Power/Global menu
+double tap on lockscreen to sleep
+update lockscreen wallpaper implementation
+remove network arrows toggle
+flip to mute calls
+All lockscreen tweaks added in universe
+disable volume rocker sounds
+rework expanded volume panel
+rework silent mode
+toggle unlink notification and ring volumes
+increasing volume
+Add notification tile and long press option
+Add increasing ring feature
+updated kernel (falcon)
+fixed layers and universe icons
+Android 5.1.1_r13
+tons of slim updates
+device specific updates
