@@ -45,7 +45,7 @@ Quick Settings tiles
 Smart pull-down
 quick pull-down
 Status bar header weather and LockClock
-Additional tiles - Music, reboot, LTE, Expanded Desktop, visualizer
+Additional tiles - Music, reboot, LTE, Expanded Desktop, visualizer, headsup, notifications
 
 Status Bar
 Clock alignment - right and center
@@ -67,10 +67,11 @@ Slim Pie
 Slim dim
 Navbar dimensions
 Navbar buttons
+Nav Rings
 Virtual arrow keys
 menu key location and visibility
 Double tap to sleep on nav-bar
-slim dim
+Slim dim
 
 Recent apps panel
 Slim recents
@@ -86,7 +87,9 @@ Lockscreen Weather
 Lockscreen visualizer
 Lockscreen shortcuts
 Gesture lockscreen
-
+Lockscreen wallpaper
+double tap on lockscreen to sleep
+double tap lock icon to sleep
 Kernel Adiutor
 
 OTA
@@ -103,6 +106,14 @@ Heads up
 Force expand notifications
 Notification Light
 true silent mode
+Expanded volume
+unlink notification and ring volumes
+increasing ring volume
+zen mode
+flip to mute calls
+disable volume rocker sounds
+
+Power/Global Menu
 
 Dashboard switches for wifi and bluetooth
 
@@ -132,23 +143,36 @@ Enjoy
 [CENTER][IMG]http://i.imgur.com/7CjxFLJ.png[/IMG][/CENTER]
 [CENTER][B]
 Latest build -
-10th Aug - 5th build [1.4]
-update to r9
-SlimOTA [thanks to fusionjack]
-updated Kernel Adiutor
-updated toolchains
-new headsup implementation
-slimdim improvements
-fix double tap on navbar to sleep
-update APN's
-return of silent mode
-fix vizualizer
-Gesture Lockscreen
-in-call vibration
-update rro idmap
-slim updates
-optimization in bionic string routines
-device/kernel updates
+24th Aug - 6th build [1.5]
+Nav rings
+heads up tile -my implementation for slim [tile works if heads up is on in settings]
+reduce battery padding
+fix OTA
+Fix recents clear all. Also make bottom right default
+Fix settings>more>cellular networks for msim
+Lockscreen wallpaper 
+Layers type 3 commits 
+prevent audio ducking
+vectorize universe and layers icons
+Power/Global menu
+double tap on lockscreen to sleep
+update lockscreen wallpaper implementation
+remove network arrows toggle
+flip to mute calls
+All lockscreen tweaks added in universe
+disable volume rocker sounds
+rework expanded volume panel
+rework silent mode
+toggle unlink notification and ring volumes
+increasing volume
+Add notification tile and long press option
+Add increasing ring feature
+updated kernel (falcon)
+fixed layers and universe icons
+Android 5.1.1_r13
+tons of slim updates
+device specific updates
+
 [/CENTER][/B]
 [CENTER][code]
 4th July - 1st build [1.0]
@@ -228,11 +252,31 @@ Enable unknown sources by default
 Add anti piracy support [Thanks Dave Kessler]
 webview support
 other updates
+
+10th Aug - 5th build [1.4]
+update to r9
+SlimOTA [thanks to fusionjack]
+updated Kernel Adiutor
+updated toolchains
+new headsup implementation
+slimdim improvements
+fix double tap on navbar to sleep
+update APN's
+return of silent mode
+fix vizualizer
+Gesture Lockscreen
+in-call vibration
+update rro idmap
+slim updates
+optimization in bionic string routines
+device/kernel updates
+
  [/code][/CENTER]
 
 [CENTER][IMG]http://i.imgur.com/EOUnihr.png[/IMG][/CENTER]
 
-[CENTER][SIZE="5"][URL="https://github.com/TeamOrion"]Team Orion[/URL][/SIZE][/CENTER]
+[CENTER][SIZE="5"][URL="https://github.com/TeamOrion"]TeamOrion[/URL][/SIZE][/CENTER]
+[CENTER][SIZE="5"][URL="https://github.com/TeamOrion-Devices"]TeamOrion-Devices[/URL][/SIZE][/CENTER]
 [CENTER][IMG]http://i.imgur.com/AW5lVGt.png[/IMG][/CENTER]
 
 [CENTER][SIZE="4"]
@@ -248,7 +292,6 @@ TeamUB
 Team SOKP
 SlimSaber
 Euphoria
-Thanks to Sathish Saju for testing
 rebelos
 Grarak
 [/SIZE][/CENTER]
