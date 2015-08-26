@@ -36,9 +36,9 @@ if [ "$1" != "" ]; then
 				echo "let's copy bootanimation in the prebuilt directory"
 				mkdir -p ~/orion/prebuilts/chromium/$1/media
 				cp vendor/orion/config/media/bootanimation.zip prebuilts/chromium/$1/media/bootanimation.zip
-				echo "Bootanimation copied"
+				echo "Bootanimation copied. Starting build.."
 			else
-				echo "Bootanimation exists"
+				echo "Bootanimation exists in prebuilt. Starting build.."
 			fi
 
 		# compile
