@@ -47,7 +47,7 @@ if [ "$1" != "" ]; then
 	#3. Fix repo sync
 
 	elif [ "$choice" == "3" ]; then
-		echo "this step will remove your .repo/repo folder and resync stuff. Continue (y/n)?"
+		echo "this step will remove your .repo/repo folder and resync repo projects. Continue (y/n)?"
 		read r
 		if [ "$r" == "y" ]; then
 			echo "removing .repo/repo"
