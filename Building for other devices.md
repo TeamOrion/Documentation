@@ -22,7 +22,7 @@ To add device specifics, do the following:
 cd .repo && mkdir local_manifests
 nano .repo/local_manifests/roomservice.xml
 
-Add you device tree, kernel source, proprietory vendor and whatever you want to add/remove.
+Add your device tree, kernel source, proprietory vendor and whatever you want to add/remove. Look at the existing local_manifest in the Documentation for a general idea.
 
 Sync the project:
 
@@ -32,8 +32,8 @@ For exp. repo sync -j16
 Make device tree compatible with orion. Have a look at other Orion device trees to get some idea.
 
 Time to compile! 
-Check the script orion.sh in documentation. 
-or manually type these commands -
+Check the script orion.sh in documentation. Copy/download the file in the main directory.
+Then type ./orion.sh <device name> to start compiling or manually type these commands -
 . build/envsetup.sh 
 breakfast *device name*
 export USE_PREBUILT_CHROMIUM=1 
