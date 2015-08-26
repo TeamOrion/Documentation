@@ -4,7 +4,7 @@
 
 # Give command line argument for the device ./orion.sh <device>
 
-eval "cd ~/orion"
+cd ~/orion
 
 
 if [ "$1" != "" ]; then
