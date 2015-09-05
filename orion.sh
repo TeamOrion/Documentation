@@ -15,10 +15,10 @@ if [ "$1" != "" ]; then
 
 	if [ "$choice" == "1" ]; then
 		eval "repo sync -j16"
-
+	fi
 	#2. Build
 
-	elif [[ "$choice" == "1" || "$choice" == "2" ]]; then
+	if [[ "$choice" == "1" || "$choice" == "2" ]]; then
 		eval ". build/envsetup.sh"
 		export USE_PREBUILT_CHROMIUM=1
 
