@@ -42,7 +42,7 @@
 
 <!--Armani-->
  <project name="TeamOrion/device_xiaomi_armani" path="device/xiaomi/armani" remote="github" revision="lp5.1" />
- <project path="kernel/xiaomi/armani" name="rebelos/android_kernel_xiaomi_armani" remote="github" revision="lp5.1" />
+ <project path="kernel/xiaomi/armani" name="armani-dev/android_kernel_xiaomi_armani" remote="github" revision="cm-12.1" />
  <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
 
 <!--T0lte--> 
