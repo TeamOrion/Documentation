@@ -53,4 +53,10 @@
   <project name="jlmancuso/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.1" />
   <project name="jlmancuso/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lp5.1" />
 
+<!--Bacon-->
+  Just lunch it, it's all in dependencies
+
+<!--Flounder-->
+  Just lunch it, it's all in dependencies
+
  </manifest>
