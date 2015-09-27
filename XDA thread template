@@ -37,15 +37,16 @@
 [B][I][U]Features[/U][/I][/B]
 [code]
 *Main Features List* - 
+
 Theming
-Bitskyo layers [RRO]
+Bitskyko layers [RRO]
 
 Quick Settings
 Quick Settings tiles
 Smart pull-down
 quick pull-down
 Status bar header weather and LockClock
-Additional tiles - Music, reboot, LTE, Expanded Desktop, visualizer, headsup, notifications
+Additional tiles - Music, reboot, LTE, Expanded Desktop, visualizer, headsup, notifications, battery saver, data tile
 
 Status Bar
 Clock alignment - right and center
@@ -56,11 +57,11 @@ Date format, style
 Battery icon mods
 Battery bar
 Notification ticker
-Network activity arrows
 Network traffic
 Double tap to sleep on status bar
 Carrier Label (Single sim only)
 Task Manager
+Contextual weather panel
 
 Navigation
 Slim Pie
@@ -90,6 +91,8 @@ Gesture lockscreen
 Lockscreen wallpaper
 double tap on lockscreen to sleep
 double tap lock icon to sleep
+toggle lockscreen bottom shortcuts
+
 Kernel Adiutor
 
 OTA
@@ -112,12 +115,23 @@ increasing ring volume
 zen mode
 flip to mute calls
 disable volume rocker sounds
+volume steps
+2nd sim ringtone
+Floating windows 
 
 Power/Global Menu
 
-Dashboard switches for wifi and bluetooth
+Dashboard switches for wifi, bluetooth and network
 
-Viper4Android Thanks to viper520﻿
+*disable battery saver mode color*
+
+Viper4Android Thanks to viper520
+
+Orion Wallpapers
+
+Security
+Screen Pinning
+variable size grid lockscreen﻿
 [/code]
 [/CENTER]
 
