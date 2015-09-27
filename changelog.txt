@@ -147,3 +147,32 @@ Battery saver tile
 Development Shortcut
 kernel updates
 slim updates
+
+27th September - 8th build [1.7]
+Orion Walls
+Contextual Weather panel
+Update APNs
+Single click data toggle, Long click data usage
+Update Uber toolchain
+Allow Viper in enforcing
+Hide carrier label on lockscreen
+icons with toast notifications
+Add Android M sounds
+Fix msim fcs in settings>about
+Fix msim fcs in dialer>settings>subs
+Reduce battery padding for text
+Remove the emergency call label
+Dismiss voicemail notification
+Change lockscreen wallpaper implementation
+Upgrade to r18
+Show running apps in recents by default
+Disable double tap on lockscreen by default
+Enable task manager by default 
+Update default walls
+Fix glitches in recents
+Fix dual non-intrusive entries in dialer settings
+device and kernel updates 
+Tons of slim updates
+Add cm lock security ( variable grid patterns )
+Live display fixes
+
