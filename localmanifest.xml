@@ -47,7 +47,7 @@
 
 <!--T0lte--> 
   <project name="TeamOrion-Devices/device_samsung_t0lte" path="device/samsung/t0lte" remote="github" revision="lp5.1" />
-  <project name="mrhainavn/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-12.1" />
+  <project name="TeamOrion-Devices/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-12.1" />
   <project name="CyanideL/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" revision="cm-12.1" />
   <project name="CyanideL/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.1" />
   <project name="jlmancuso/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.1" />
