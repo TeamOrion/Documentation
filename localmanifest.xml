@@ -50,8 +50,8 @@
   <project name="TeamOrion-Devices/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-12.1" />
   <project name="CyanideL/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" revision="cm-12.1" />
   <project name="CyanideL/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.1" />
-  <project name="jlmancuso/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.1" />
-  <project name="jlmancuso/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lp5.1" />
+  <project name="CyanideL/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.1" />
+  <project name="CyanideL/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.1" />
 
 <!--Bacon-->
   Just lunch it, it's all in dependencies
