@@ -176,3 +176,19 @@ Tons of slim updates
 Add cm lock security ( variable grid patterns )
 Live display fixes
 
+23rd October - 9th build [1.8]
+update to 5.1.1_r24
+Update layers manager
+Update Kernel Aduitor
+Lockscreen blur 
+google webview
+Contextual panel toggle - normal, poly HD, modern  modes
+Screen recording
+Inbuilt quickboot support (thanks arter97 for QuickBoot)
+Disable haptic feedback by default
+Add animation slider 
+Fix task manager glitches
+Security patches
+slim updates
+device updates ﻿
+
