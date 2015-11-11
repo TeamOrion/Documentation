@@ -36,13 +36,13 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 		case $opt in 
 			s)					# sync
 				echo "Syncing repo"
-				repo sync -j16
+				eval "repo sync -c --force-sync --force-broken --no-clone-bundle"
 				echo "Repo sync done"
 				;;
 				
 			f)					# force sync 
 				echo "Force syncing repo"
-				repo sync-j16 --force-sync --force-broken 
+				eval "repo sync -c --force-sync --force-broken --no-clone-bundle"
 				echo "Repo sync done"
 				;;
 			
@@ -54,7 +54,9 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 					echo "removing .repo/repo"
 					rm -rf ".repo/repo"
 					eval "repo init -u git://github.com/TeamOrion/platform_manifest.git -b lp5.1"
-					eval "repo sync --force-sync -j16"
+					eval "repo sync -c --force-sync --force-broken --no-clone-bundle"
+
+
 	
 				elif [ "$ch" == "n" ]; then
 					echo "Aborted"
@@ -76,6 +78,7 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 				echo "building dirty (default)"
 				echo "removing build.prop of older build"
 				rm -rf "$ORION_HOME/out/target/product/$2/system/build.prop"
+				rm -rf "$ORION_HOME/out/target/product/$2/system/*.zip"
 				;;
 			
 			\?) 
@@ -85,7 +88,7 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 		esac
 	done
 	
-	eval ". $ORION_HOME/build/envsetup.sh"
+	eval ". build/envsetup.sh"
 	export USE_PREBUILT_CHROMIUM=1
 	#Check official support
 		if grep -Fxq $2 $ORION_DEVICES
