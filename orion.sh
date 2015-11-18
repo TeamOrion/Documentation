@@ -1,71 +1,107 @@
-#! /bin/bash
-# Author - Soham Jambhekar
-# Copyrights OrionLP
+#=========================================
+#Build script for OrionOS
+#Copy or link this file from Documentation to the root folder or run it from documentation for the first time
+#To link, do ln -s Documentation/orion.sh . 
+#Give command line argument for the device ./orion.sh <flags> <device>. 
+#Kill the process using Control + C
 
-# Give command line argument for the device ./orion.sh <device>
+#=========================================
 
-cd ~/orion
+#=========================================
+#ENVIRONMENT VARIABLES
+#Set your environment variables (some set by default)
+alias ORION_HOME="cd /home/`whoami`/orion"
+ORION_DEVICES="/home/`whoami`/orion/vendor/orion/orion.devices"
+#=========================================
+
+#=========================================
+#FLAGS - 
+# s = sync | f= force sync | r=repair sync
+# c = clean 
+# d = default (dirty)
+# p = clear prebuilt chromium
+#=========================================
 
 
-if [ "$1" != "" ]; then
-	echo '1:repo sync and build, 2:build 3:fix repo sync'
-	read choice
+$ORION_HOME
 
-	#1. Repo sync
+if [ "$2" == "" ]; then			#No device name
+	
+	echo "No device name entered. Select from the foll-"
+	cat  $ORION_DEVICES
+	
+elif [ "$2" != "" ]; then		#Device name given. Check flags
 
-	if [ "$choice" == "1" ]; then
-		eval "repo sync -j16"
-	fi
-	#2. Build
+	while getopts "s:f:r:c:p:d" opt; do
+		case $opt in 
+			s)					# sync
+				echo "Syncing repo"
+				eval "repo sync -c --force-sync --force-broken --no-clone-bundle"
+				echo "Repo sync done"
+				;;
+				
+			f)					# force sync 
+				echo "Force syncing repo"
+				eval "repo sync -c --force-sync --force-broken --no-clone-bundle"
+				echo "Repo sync done"
+				;;
+			
+			r)				#Fixed force sync 
+				echo "Fixing broken sync and syncing"
+				echo "this step will remove your .repo/repo folder and resync repo projects. Continue (y/n)?"
+				read ch
+				if [ "$ch" == "y" ]; then
+					echo "removing .repo/repo"
+					rm -rf ".repo/repo"
+					eval "repo init -u git://github.com/TeamOrion/platform_manifest.git -b mm6.0"
+					eval "repo sync -c --force-sync --force-broken --no-clone-bundle"
 
-	if [[ "$choice" == "1" || "$choice" == "2" ]]; then
-		eval ". build/envsetup.sh"
-		export USE_PREBUILT_CHROMIUM=1
 
-		#Check official support
-			if grep -Fxq $1 vendor/orion/orion.devices
+	
+				elif [ "$ch" == "n" ]; then
+					echo "Aborted"
+				else
+					echo "Wrong option. Aborted"
+				fi
+				;;
+			
+			c)				#clean
+				make clean
+				;;
+			
+			p)				#clean prebuilt
+				echo "clearing prebuilt/chromium"
+				rm -rf "$ORION_HOME/prebuilts/chromium/$2"
+				;;
+				
+			d)				#default
+				echo "building dirty (default)"
+				echo "removing build.prop of older build"
+				rm -rf "$ORION_HOME/out/target/product/$2/system/build.prop"
+				rm -rf "$ORION_HOME/out/target/product/$2/system/*.zip"
+				;;
+			
+			\?) 
+				echo "Usage ./orion.sh -[s][f][r][c][p][d] [device name]"
+				;;
+				
+		esac
+	done
+	
+	eval ". build/envsetup.sh"
+	export USE_PREBUILT_CHROMIUM=1
+	#Check official support
+		if grep -Fxq $2 $ORION_DEVICES
 			then
-				echo "====$1 is officially supported===="
+				echo "====$2 is officially supported===="
 				export ORION_RELEASE=true
 			else
 				echo "device is not supported officially; building unofficially"
-			fi
-	
-		#If prebuilt is cleaned, make sure to copy bootanimation there
-			if [ ! -f "prebuilts/chromium/$1/media/bootanimation.zip" ]; then
-				echo "let's copy bootanimation in the prebuilt directory"
-				mkdir -p ~/orion/prebuilts/chromium/$1/media
-				cp vendor/orion/config/media/bootanimation.zip prebuilts/chromium/$1/media/bootanimation.zip
-				echo "Bootanimation copied. Starting build.."
-			else
-				echo "Bootanimation exists in prebuilt. Starting build.."
-			fi
-
-		# compile
-			eval "brunch $1"
-
-	#3. Fix repo sync
-
-	elif [ "$choice" == "3" ]; then
-		echo "this step will remove your .repo/repo folder and resync repo projects. Continue (y/n)?"
-		read r
-		if [ "$r" == "y" ]; then
-			echo "removing .repo/repo"
-			
-			rm -rf .repo/repo
-			eval "repo init -u git://github.com/TeamOrion/platform_manifest.git -b lp5.1"
-			eval "repo sync --force-sync -j4"
-		elif [ "$r" == "n" ]; then
-			echo "Aborted"
-		else
-			echo "Wrong option. Aborted"
 		fi
-	fi
-
-# Wrong option
-
-else
-	echo "Error: enter proper device name. Select from -"
-	cat "vendor/orion/orion.devices"
+		
+	# compile
+	eval "brunch $2"
+			
+else 
+	echo "Error"
 fi
-
