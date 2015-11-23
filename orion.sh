@@ -1,8 +1,9 @@
+#!/bin/bash
 #=========================================
 #Build script for OrionOS
 #Copy or link this file from Documentation to the root folder or run it from documentation for the first time
 #To link, do ln -s Documentation/orion.sh . 
-#Give command line argument for the device ./orion.sh <flags> <device>. 
+#Give command line argument for the device bash orion.sh <flags> <device>. 
 #Kill the process using Control + C
 
 #=========================================
@@ -83,7 +84,7 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 			
 			\?) 
 				echo "Usage ./orion.sh -[s][f][r][c][p][d] [device name]"
-				exit
+				exit 1;
 				;;
 				
 		esac
