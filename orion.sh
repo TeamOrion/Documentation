@@ -83,6 +83,7 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 			
 			\?) 
 				echo "Usage ./orion.sh -[s][f][r][c][p][d] [device name]"
+				exit
 				;;
 				
 		esac
