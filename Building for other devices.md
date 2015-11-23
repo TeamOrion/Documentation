@@ -5,7 +5,7 @@ Thanks jack
 
 Open Linux terminal
 
-Make a directory for OrionLP. This folder will contain the whole source code. The ~/ is to make the folder in home:
+Make a directory for OrionOS. This folder will contain the whole source code. The ~/ is to make the folder in home:
 
 mkdir ~/orion
 
@@ -15,7 +15,7 @@ cd orion
 
 Initiate the Orion repo. this will set up repo tool :
 
-repo init -u git://github.com/TeamOrion/platform_manifest.git -b lp5.1
+repo init -u git://github.com/TeamOrion/platform_manifest.git -b mm6.0
 
 To add device specifics, do the following:
 
@@ -33,12 +33,17 @@ Make device tree compatible with orion. Have a look at other Orion device trees 
 
 Time to compile! 
 Check the script orion.sh in documentation. Copy/download the file in the main directory.
-Then type ./orion.sh <device name> to start compiling or manually type these commands -
-. build/envsetup.sh 
-breakfast *device name*
-export USE_PREBUILT_CHROMIUM=1 
-brunch *device name*
 
+Usage -
+Set the ORION_HOME environment variable to the directory you have synced the source in. By default it is /home/<user>/orion.
+Compile using - 
+
+./orion.sh -[s][f][r][c][p][d] [device name]
+ s = sync | f= force sync | r=repair sync
+ c = clean 
+ d = default (dirty)
+ p = clear prebuilt chromium
+ 
 the zip will be ready for you in out/target/product/<device>
 
 Good luck! May the force be with you! 
