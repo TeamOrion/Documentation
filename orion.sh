@@ -112,7 +112,7 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 		fi
 		
 	# compile
-	eval "brunch $2"
+	eval "brunch $2 2>&1 | tee $(date +%Y%m%d)-$device.log"
 			
 else 
 	echo "$red Error$end"
