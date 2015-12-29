@@ -192,3 +192,32 @@ Security patches
 slim updates
 device updates ﻿
 
+29th December - 10th build [2.0]
+Android 6.0.0_r7
+Statusbar customizations:
+- Clock settings
+- Battery styles
+- Battery bar
+- Network traffic
+Recents:
+- Slim Recents
+- Clear all recent FAB and positions
+- RAM memory bar in recents
+- Full screen recents
+Misc:
+- New Icon and logo
+- New bootanimation
+- Dark theme switch (many improvements on various preinstalled apps)
+- Double tap to sleep (navbar,statusbar)
+- Quick unlock
+- Pin scramble
+- Pre-rooted
+- Layers Manager
+- Uber 5.3
+- Messenger instead of MMS (with NightMode)
+- Update gallery (design tweaks)
+- OTA (in device info)
+- SuperSu in settings
+- Hardware buttons customizations
+
+
