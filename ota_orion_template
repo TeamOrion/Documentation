@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <falcon>
+            <Filename>OrionOS-falcon-2.0-OFFICIAL-20151229</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Download OrionOS build">https://www.androidfilehost.com/?w=files&amp;flid=34631</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="View OrionOS changelogs">https://github.com/TeamOrion/Documentation/blob/master/changelog.txt</ChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="Gapps"
+                description="Download latest gapps">http://opengapps.org/</GappsUrl>
+            <XDAUrl
+                id="xda"
+                title="XDA"
+                description="Visit OrionOS falcon thread">http://forum.xda-developers.com/moto-g/development/rom-orionlp-1-0-t3149760</XDAUrl>
+	    </falcon>
+    </Stable>
+</SlimOTA>
