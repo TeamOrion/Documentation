@@ -32,10 +32,8 @@ For exp. repo sync -j16
 Make device tree compatible with orion. Have a look at other Orion device trees to get some idea.
 
 Time to compile! 
-Check the script orion.sh in documentation. Copy/download the file in the main directory.
+Check the script orion.sh in the main directory
 
-Usage -
-Set the ORION_HOME environment variable to the directory you have synced the source in. By default it is /home/<user>/orion.
 Compile using - 
 
 ./orion.sh -[s][f][r][c][p][d] [device name]
@@ -46,4 +44,4 @@ Compile using -
  
 the zip will be ready for you in out/target/product/<device>
 
-Good luck! May the force be with you! 
+Good luck! May the source be with you! 
