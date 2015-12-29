@@ -2,10 +2,13 @@
 <manifest>
 
 <!--falcon -->
-  <project name="TeamOrion-Devices/device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="lp5.1" />
-  <project name="TeamOrion-Devices/device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="lp5.1" />
-  <project name="TeamOrion-Devices/Orion_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="lp5.1" />
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
+  <project name="TeamOrion-Devices/device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="mm6.0" />
+  <project name="TeamOrion-Devices/device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="mm6.0" />
+  <project name="TeamOrion-Devices/Orion_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="mm6.0" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
+  <project name="Cyanogenmod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-13.0" />
+  <project name="Cyanogenmod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
+  <project name="SlimRoms/android_external_connectivity" path="external/connectivity" remote="github" revision="mm6.0" />
 
 <!--hammerhead-->
   <project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="cm-12.1" />
