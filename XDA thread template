@@ -1,4 +1,4 @@
-[CENTER][IMG]http://i.imgur.com/VIMGCN0.png[/IMG][/CENTER]
+[CENTER][IMG] http://i.imgur.com/Y31ZF5J.jpg[/IMG][/CENTER]
 
 [CENTER][SIZE="6"]Official Google Plus community:- [/SIZE][/CENTER]
 
@@ -15,167 +15,97 @@
 */
 [/code][/CENTER]
 
-[CENTER][IMG]http://i.imgur.com/BsFGsim.png[/IMG][/CENTER]
+[CENTER][IMG]http://i.imgur.com/yBIvn2u.png[/IMG][/CENTER]
 
-[SIZE="4"]OrionLP is a project based on slim. The name Orion was chosen as a representation of the beauty and vastness of world around us (Too much Philosophy, eh? :P ). We started this project for falcon (Moto G), to make a stable Rom which would include Bitsyko layers and important customization. The Rom is built with Uber toolchain which delivers awesome smoothness and is packed with a custom kernel built from ground-up to ensure good performance [WIP].  Needless to say, this project is a product of our hobbies and the love we bore for Android. [/SIZE]
+[SIZE="4"]OrionOS is a project based on slim. The name Orion was chosen as a representation of the beauty and vastness of world around us (Too much Philosophy, eh? :P ). We started this project for falcon (Moto G), to make a stable Rom which would include Bitsyko layers and important customization. The Rom is built with Uber toolchain which delivers awesome smoothness and is packed with a custom kernel built from ground-up to ensure good performance [WIP].  Needless to say, this project is a product of our hobbies and the love we bore for Android. [/SIZE]
 
-[CENTER][IMG]http://i.imgur.com/I41PRD7.png[/IMG][/CENTER]
+[CENTER][IMG]http://i.imgur.com/4M1C0cT.png[/IMG][/CENTER]
 
 [SIZE="5"][CENTER]
  [MENTION=4402830]SohamJ[/MENTION]
  [MENTION=4139665]martinusbe[/MENTION]
  [MENTION=5272996]srisurya95[/MENTION]
  [MENTION=5857055]Flashhhh[/MENTION]
- [MENTION=5586070]Shelbin[/MENTION]
- [MENTION=5854483]akhilnarang[/MENTION]
- [MENTION=6143324]GrinningFerret[/MENTION]
+ [MENTION=5175623]Aayushya[/MENTION]
+Luis Hagenauer
+Nevo Levin
+Akhil Narang
+Shelbin Kindangan
 [/CENTER][/SIZE]
 
-[CENTER][IMG]http://i.imgur.com/MPyVD2B.png[/IMG][/CENTER]
+[CENTER][IMG]http://i.imgur.com/7C4PzRA.png[/IMG][/CENTER]
 [CENTER]
 [B][I][U]Features[/U][/I][/B]
 [code]
-*Main Features List* - 
+**Main Features List** - 
 
-Theming
-Bitsyko layers [RRO]
+Statusbar customizations:
+- Clock settings
+- Battery styles
+- Battery bar
+- Network traffic
 
-Quick Settings
-Quick Settings tiles
-Smart pull-down
-quick pull-down
-Status bar header weather and LockClock
-Additional tiles - Music, reboot, LTE, Expanded Desktop, visualizer, headsup, notifications, battery saver, data tile
+Recents:
+- Slim Recents
+- Clear all recent FAB and positions
+- RAM memory bar in recents
+- Full screen recents
 
-Status Bar
-Clock alignment - right and center
-Clock color,font
-Clock seconds
-Am/Pm settings
-Date format, style
-Battery icon mods
-Battery bar
-Notification ticker
-Network traffic
-Double tap to sleep on status bar
-Carrier Label (Single sim only)
-Task Manager
-Contextual weather panel
-
-Navigation
-Slim Pie
-Slim dim
-Navbar dimensions
-Navbar buttons
-Nav Rings
-Virtual arrow keys
-menu key location and visibility
-Double tap to sleep on nav-bar
-Slim dim
-
-Recent apps panel
-Slim recents
-show only running apps
-Disable search bar in recents
-Clear all FAB
-screen pinning
-
-Expanded Desktop
-
-Lockscreen
-Lockscreen Weather
-Lockscreen visualizer
-Lockscreen shortcuts
-Gesture lockscreen
-Lockscreen wallpaper
-double tap on lockscreen to sleep
-double tap lock icon to sleep
-toggle lockscreen bottom shortcuts
-
-Kernel Adiutor
-
-OTA
-
-Display
-Live Display
-LCD Density
-Ambient display
-
-Sound and Notifications
-Charging sounds
-Volume rocker music controls
-Heads up
-Force expand notifications
-Notification Light
-true silent mode
-Expanded volume
-unlink notification and ring volumes
-increasing ring volume
-zen mode
-flip to mute calls
-disable volume rocker sounds
-volume steps
-2nd sim ringtone
-Floating windows 
-
-Power/Global Menu
-
-Dashboard switches for wifi, bluetooth and network
-
-*disable battery saver mode color*
-
-Viper4Android Thanks to viper520
-
-Orion Wallpapers
-
-Security
-Screen Pinning
-variable size grid lockscreen﻿
+Misc:
+- New Icon and logo
+- New bootanimation
+- Dark theme switch (many improvements on various preinstalled apps)
+- Double tap to sleep (navbar,statusbar)
+- Quick unlock
+- Pin scramble
+- Pre-rooted
+- Layers Manager
+- Uber 5.3
+- Messenger instead of MMS (with NightMode)
+- Update gallery (design tweaks)
+- OTA (in device info)
+- SuperSu in settings
+- Hardware buttons customizations﻿
 [/code]
 [/CENTER]
 
-[CENTER][IMG] http://i.imgur.com/NvzxLOB.png[/IMG][/CENTER]
+[CENTER][IMG] http://i.imgur.com/1od2nC8.png[/IMG][/CENTER]
 
-[IMG]http://i.imgur.com/wCRov7W.jpg[/IMG]
+Coming soon!
 
-[CENTER][IMG]http://i.imgur.com/6YmQo8b.png[/IMG][/CENTER]
+[CENTER][IMG]http://i.imgur.com/YvB3eqC.png[/IMG][/CENTER]
 
 [CENTER][SIZE="4"]
 Copy the ROM and Gapps in SD card.
 Go to your recovery - Wipe Data, Cache and Dalvik Cache.
 Install ROM and Gapps zip.
+Install forcess.zip for single sim users
 Reboot - 1st boot takes around 3-4 minutes. 
 Enjoy
 [/SIZE][/CENTER]
 
-[CENTER][IMG]http://i.imgur.com/W9rXu6v.png[/IMG][/CENTER]
+[CENTER][IMG]http://i.imgur.com/Do5pxvv.png[/IMG][/CENTER]
 
-[CENTER][SIZE="5"]ROM - [URL="Your Rom Download link here"]Download[/URL][/SIZE][/CENTER]
-[CENTER][SIZE="5"]Gapps - [URL="http://forum.xda-developers.com/slimroms/general/gapps-official-slim-gapps-trds-slimkat-t2792842"]Gapps[/URL][/SIZE][/CENTER]
+[CENTER][SIZE="5"]ROM -[URL="https://www.androidfilehost.com/?a=show&w=files&flid=34631"]Download[/URL][/SIZE][/CENTER]
+[CENTER][SIZE="2"]OrionOS 2.0 -[URL="https://www.androidfilehost.com/?fid=24349802275799745"]1.8[/URL][/SIZE][/CENTER]
+[CENTER][SIZE="5"]Gapps - [URL="http://opengapps.org/"]Gapps[/URL][/SIZE][/CENTER]
 
-[CENTER][IMG]http://i.imgur.com/7CjxFLJ.png[/IMG][/CENTER]
+[CENTER][IMG]http://i.imgur.com/U9EFNgw.png[/IMG][/CENTER]
+[CENTER][B]
+2.0 
+First M build
 
-[CENTER][SIZE="5"][URL="https://raw.githubusercontent.com/TeamOrion/Documentation/master/changelog.txt"]Changelog[/URL][/SIZE][/CENTER]
+ [/code][/CENTER]
 
-[CENTER][IMG]http://i.imgur.com/EOUnihr.png[/IMG][/CENTER]
+[CENTER][IMG]http://i.imgur.com/rKE78UB.png[/IMG][/CENTER]
 
 [CENTER][SIZE="5"][URL="https://github.com/TeamOrion"]TeamOrion[/URL][/SIZE][/CENTER]
 [CENTER][SIZE="5"][URL="https://github.com/TeamOrion-Devices"]TeamOrion-Devices[/URL][/SIZE][/CENTER]
-[CENTER][IMG]http://i.imgur.com/AW5lVGt.png[/IMG][/CENTER]
+[CENTER][IMG]http://i.imgur.com/0PIJbQJ.png[/IMG][/CENTER]
 
 [CENTER][SIZE="4"]
 SlimRoms
 CyanogenMod
 TipsyOS, martinusbe (big thanks)
 Layers team
-ViPER520
-BrokenROM
-rob77
-Fabio-san
-TeamUB
-Team SOKP
-SlimSaber
-Euphoria
-rebelos
-Grarak
 [/SIZE][/CENTER]
