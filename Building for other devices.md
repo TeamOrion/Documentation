@@ -34,8 +34,10 @@ Make device tree compatible with orion. Have a look at other Orion device trees 
 Time to compile! 
 Check the script orion.sh in the main directory
 
-Using uber TC
+Using uber TC: 
+
 Add the following lines to BoardConfig.mk  in device tree - 
+
 #Kernel Toolchain
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.3-uber/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
