@@ -15,7 +15,7 @@ cd orion
 
 Initiate the Orion repo. this will set up repo tool :
 
-repo init -u git://github.com/TeamOrion/platform_manifest.git -b mm6.0
+repo init -u git://github.com/TeamOrion/platform_manifest.git -b 6.0.1
 
 To add device specifics, do the following:
 
@@ -26,8 +26,8 @@ Add your device tree, kernel source, proprietory vendor and whatever you want to
 
 Sync the project:
 
-repo sync -j#
-For exp. repo sync -j16
+repo sync -j# -c
+For exp. repo sync -j16 -c
 
 Make device tree compatible with orion. Have a look at other Orion device trees to get some idea.
 
