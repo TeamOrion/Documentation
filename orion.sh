@@ -60,7 +60,7 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 				if [ "$ch" == "y" ]; then
 					printf "$blu removing .repo/repo\n$end"
 					rm -rf ".repo/repo"
-					eval "repo init -u git://github.com/TeamOrion/platform_manifest.git -b mm6.0"
+					eval "repo init -u git://github.com/TeamOrion/platform_manifest.git -b 6.0.1"
 					eval "repo sync -c --force-sync --force-broken --no-clone-bundle"
 
 
