@@ -77,7 +77,7 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 			
 			d)				#default
 				printf "$blu building dirty (default)$end\n"
-				if [ -f "`$ORION_HOME`/out/target/product/$2/system/build.prop" ]; then
+				if [ -f "$ORION_HOME/out/target/product/$2/system/build.prop" ]; then
 					printf "$yel rm build.prop, *.zip\n$end"
 					rm  `$ORION_HOME`/out/target/product/$2/system/build.prop				
 					rm  `$ORION_HOME`/out/target/product/$2/*.zip
