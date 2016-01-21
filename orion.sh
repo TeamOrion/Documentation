@@ -30,6 +30,7 @@ else
 fi
 #=========================================
 
+eval ". build/envsetup.sh"
 
 if [ "$2" == "" ]; then			#No device name
 	
@@ -77,12 +78,7 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 			
 			d)				#default
 				printf "$blu building dirty (default)$end\n"
-				if [ -f "$ORION_HOME/out/target/product/$2/system/build.prop" ]; then
-					printf "$yel rm build.prop, *.zip\n$end"
-					rm  `$ORION_HOME`/out/target/product/$2/system/build.prop				
-					rm  `$ORION_HOME`/out/target/product/$2/*.zip
-					rm  `$ORION_HOME`/out/target/product/$2/*.zip.md5sum
-				fi
+				make dirty
 				;;
 			
 			\?) 
@@ -93,7 +89,6 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 		esac
 	done
 	
-	eval ". build/envsetup.sh"
 	#Check official support
 		if grep -Fxq $2 `pwd`/vendor/orion/orion.devices
 			then
