@@ -46,7 +46,8 @@ KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 TARGET_GCC_VERSION_EXP := 5.3-uber
 
 Add a -uber suffix to the toolchain folders in prebuilts/gcc
-Compile using - 
+
+# Building
 
 ./orion.sh -[s][f][r][c][p][d] [device name]
  s = sync | f= force sync | r=repair sync
