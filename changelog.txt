@@ -220,4 +220,29 @@ Misc:
 - SuperSu in settings
 - Hardware buttons customizations
 
+28th January - 11th build [2.1]
+
+Android 6.0.1 r10 - rebased to AOSPB
+Fix OTA 
+Volume long press skip tracks
+volume buttons cursor control
+Ime notification toggle
+Add Viper back
+Doze
+use power button as camera shutter
+Hide adb notification toggle
+Make clock and time clickable in statusbar
+Power menu customization
+Disable Battery Saver color
+Show weather in statusbar
+Update ringtones
+Ability to hide alarm clock icon
+Ignore interruptions while playback
+Buttons: Add recents customization
+Lockscreen Wallpaper
+CM Browser
+System UI tuner enabled by default
+Layers 4.0 commits 
+Configurable dashboard columns
+Fix advanced reboot
 
