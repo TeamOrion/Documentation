@@ -17,7 +17,7 @@
 
 [CENTER][IMG]http://i.imgur.com/yBIvn2u.png[/IMG][/CENTER]
 
-[SIZE="4"]OrionOS is a project based on slim. The name Orion was chosen as a representation of the beauty and vastness of world around us (Too much Philosophy, eh? :P ). We started this project for falcon (Moto G), to make a stable Rom which would include Bitsyko layers and important customization. The Rom is built with Uber toolchain which delivers awesome smoothness and is packed with a custom kernel built from ground-up to ensure good performance [WIP].  Needless to say, this project is a product of our hobbies and the love we bore for Android. [/SIZE]
+[SIZE="4"]OrionOS is a project based on AOSPB. The name Orion was chosen as a representation of the beauty and vastness of world around us (Too much Philosophy, eh? :P ). We started this project for falcon (Moto G), to make a stable Rom which would include Bitsyko layers and important customization. The Rom is built with Uber toolchain which delivers awesome smoothness and is packed with a custom kernel built from ground-up to ensure good performance [WIP].  Needless to say, this project is a product of our hobbies and the love we bore for Android. [/SIZE]
 
 [CENTER][IMG]http://i.imgur.com/4M1C0cT.png[/IMG][/CENTER]
 
@@ -30,20 +30,21 @@
  [MENTION=5586070]Shelbin Kidangan[/MENTION]
  [MENTION=6143324]Luis Hagenauer[/MENTION]
  Nevo Levin
- [MENTION=5854483]Akhil Narang[/MENTION]	
+ [MENTION=5854483]Akhil Narang[/MENTION]
 [/CENTER][/SIZE]
 
 [CENTER][IMG]http://i.imgur.com/7C4PzRA.png[/IMG][/CENTER]
 [CENTER]
 [B][I][U]Features[/U][/I][/B]
 [code]
-**Main Features List** - 
+**Main Features List** -
 
 Statusbar customizations:
 - Clock settings
 - Battery styles
 - Battery bar
 - Network traffic
+- Weather in statusbar
 
 Recents:
 - Slim Recents
@@ -66,6 +67,13 @@ Misc:
 - OTA (in device info)
 - SuperSu in settings
 - Hardware buttons customizations﻿
+- Viper4Android
+- Hide adb notification toggle
+- Power menu customization
+- Option to disable battery saver color
+- Lockscreen wallpaper
+- Layers 4.0 commits
+- Configurable dashboard columns
 [/code]
 [/CENTER]
 
@@ -80,7 +88,7 @@ Copy the ROM and Gapps in SD card.
 Go to your recovery - Wipe Data, Cache and Dalvik Cache.
 Install ROM and Gapps zip.
 Install forcess.zip for single sim users
-Reboot - 1st boot takes around 3-4 minutes. 
+Reboot - 1st boot takes around 3-4 minutes.
 Enjoy
 [/SIZE][/CENTER]
 
@@ -92,7 +100,32 @@ Enjoy
 
 [CENTER][IMG]http://i.imgur.com/U9EFNgw.png[/IMG][/CENTER]
 [CENTER][B][code]
-2.0 
+[U]2.1[/U]
+Android 6.0.1 r10 - rebased to AOSPB
+Fix OTA
+Volume long press skip tracks
+Volume buttons cursor control
+Ime notification toggle
+Add Viper back
+Doze
+Use power button as camera shutter
+Hide adb notification toggle
+Make clock and time clickable in statusbar
+Power menu customization
+Disable Battery Saver color
+Show weather in statusbar
+Update ringtones
+Ability to hide alarm clock icon
+Ignore interruptions while playback
+Buttons: Add recents customization
+Lockscreen Wallpaper
+CM Browser
+System UI tuner enabled by default
+Layers 4.0 commits
+Configurable dashboard columns
+Fix advanced reboot
+
+[U]2.0[/U]
 First M build
 
  [/code][/B][/CENTER]
@@ -104,6 +137,7 @@ First M build
 [CENTER][IMG]http://i.imgur.com/0PIJbQJ.png[/IMG][/CENTER]
 
 [CENTER][SIZE="4"]
+AOSPB
 SlimRoms
 CyanogenMod
 TipsyOS, martinusbe (big thanks)
