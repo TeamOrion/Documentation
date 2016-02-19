@@ -1,0 +1,10 @@
+#Common OTA url for all devices
+ota_url=https://github.com/TeamOrion-Devices/OTA/blob/master/OrionOTA.xml
+release_type=Stable
+device_name=ro.orion.device
+ 
+#example ro.orion.version=OrionOS-falcon-2.0-OFFICIAL-20151229
+version_source=ro.modversion
+version_delimiter=-
+version_position=4
+version_format=yyyyMMdd
