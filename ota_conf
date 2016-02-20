@@ -1,5 +1,5 @@
 #Common OTA url for all devices
-ota_url=https://github.com/TeamOrion-Devices/OTA/blob/master/OrionOTA.xml
+ota_url=https://raw.githubusercontent.com/TeamOrion-Devices/OTA/master/OrionOTA.xml
 release_type=Stable
 device_name=ro.orion.device
  
