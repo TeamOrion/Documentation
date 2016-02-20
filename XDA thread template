@@ -17,7 +17,7 @@
 
 [CENTER][IMG]http://i.imgur.com/yBIvn2u.png[/IMG][/CENTER]
 
-[SIZE="4"]OrionOS is a project based on AOSPB. The name Orion was chosen as a representation of the beauty and vastness of world around us (Too much Philosophy, eh? :P ). We started this project for falcon (Moto G), to make a stable Rom which would include Bitsyko layers and important customization. The Rom is built with Uber toolchain which delivers awesome smoothness and is packed with a custom kernel built from ground-up to ensure good performance [WIP].  Needless to say, this project is a product of our hobbies and the love we bore for Android. [/SIZE]
+[SIZE="4"]OrionOS is a project based on slim. The name Orion was chosen as a representation of the beauty and vastness of world around us (Too much Philosophy, eh? :P ). We started this project for falcon (Moto G), to make a stable Rom which would include Bitsyko layers and important customization. The Rom is built with Uber toolchain which delivers awesome smoothness and is packed with a custom kernel built from ground-up to ensure good performance [WIP].  Needless to say, this project is a product of our hobbies and the love we bore for Android. [/SIZE]
 
 [CENTER][IMG]http://i.imgur.com/4M1C0cT.png[/IMG][/CENTER]
 
@@ -30,35 +30,68 @@
  [MENTION=5586070]Shelbin Kidangan[/MENTION]
  [MENTION=6143324]Luis Hagenauer[/MENTION]
  Nevo Levin
- [MENTION=5854483]Akhil Narang[/MENTION]
+ [MENTION=5854483]Akhil Narang[/MENTION]	
 [/CENTER][/SIZE]
 
 [CENTER][IMG]http://i.imgur.com/7C4PzRA.png[/IMG][/CENTER]
 [CENTER]
 [B][I][U]Features[/U][/I][/B]
 [code]
-**Main Features List** -
+**Main Features List** - 
+
+*OrionOS  Features List*
+
+Android 6.0.1 r10 based on AOSPB
 
 Statusbar customizations:
+- Statusbar icons
+- Quick Settings (draggable)
 - Clock settings
 - Battery styles
 - Battery bar
 - Network traffic
-- Weather in statusbar
-
+- Double tap on statusbar to sleep 
+- Carrier Label
+- Custom Headers - Normal, Modern, PolyHD
+- Weather in status bar
 Recents:
 - Slim Recents
-- Clear all recent FAB and positions
+- Clear all recent FAB with 6 positions
 - RAM memory bar in recents
 - Full screen recents
+- Show search bar in recents
+- Show running apps only
+
+Buttons:
+- Home, Menu, Recents button rebinding
+- Volume key cursor control
+- Volume key playback control
+- Volume button wake 
+
+Power Menu: 
+- Power Off, Reboot, Screenshot, Airplane Mode, User Switcher, Sound Panel, Bug Report
+
+Lockscreen Tweaks:
+- Lockscreen wallpaper 
+- Show/Hide Lockscreen Clock and date
+
+Navigation
+- Navigation bar customizations
+
+Custom LCD Density 
+
+Security:
+- Advanced Reboot
+- Double tap to sleep on lockscreen
+- Quick unlock
+- Pin scramble
+- Screen pinning
+
 
 Misc:
 - New Icon and logo
 - New bootanimation
 - Dark theme switch (many improvements on various preinstalled apps)
-- Double tap to sleep (navbar,statusbar)
-- Quick unlock
-- Pin scramble
 - Pre-rooted
 - Layers Manager
 - Uber 5.3
@@ -66,14 +99,13 @@ Misc:
 - Update gallery (design tweaks)
 - OTA (in device info)
 - SuperSu in settings
-- Hardware buttons customizations﻿
-- Viper4Android
-- Hide adb notification toggle
-- Power menu customization
-- Option to disable battery saver color
-- Lockscreen wallpaper
-- Layers 4.0 commits
-- Configurable dashboard columns
+- CM Browser 
+- Viper4Android 2.4.0.1
+- Dashboard columns 
+- Ime selector notification
+- USB debug notify toggle
+- DayNight theme
+- GoogleKeyboard by default
 [/code]
 [/CENTER]
 
@@ -87,28 +119,54 @@ Misc:
 Copy the ROM and Gapps in SD card.
 Go to your recovery - Wipe Data, Cache and Dalvik Cache.
 Install ROM and Gapps zip.
-Install forcess.zip for single sim users
-Reboot - 1st boot takes around 3-4 minutes.
+Reboot - 1st boot takes around 3-4 minutes. 
 Enjoy
 [/SIZE][/CENTER]
 
 [CENTER][IMG]http://i.imgur.com/Do5pxvv.png[/IMG][/CENTER]
 
 [CENTER][SIZE="5"]ROM -[URL="https://www.androidfilehost.com/?a=show&w=files&flid=34631"]Download[/URL][/SIZE][/CENTER]
-[CENTER][SIZE="2"]OrionOS 2.0 -[URL="https://www.androidfilehost.com/?fid=24349802275799745"]2.0[/URL][/SIZE][/CENTER]
 [CENTER][SIZE="5"]Gapps - [URL="http://opengapps.org/"]Gapps[/URL][/SIZE][/CENTER]
 
 [CENTER][IMG]http://i.imgur.com/U9EFNgw.png[/IMG][/CENTER]
 [CENTER][B][code]
-[U]2.1[/U]
+
+Orion 2.2 Changelog 
+
+Update Contexual panel on-the-fly
+Extend day night to telephony apps 
+Fix msim call notifications 
+Telephony updates 
+Flip to mute ringer
+Proximity speaker
+Fix contacts app FAB
+Disable haptic feedback and sounds by default
+Enable advanced reboot by default
+Hide lockscreen clock and date
+Fix ram bar in recents for 3gb ram
+Google keyboard as default
+Update Viper4Android to 2.4.0.1 Thanks Viper520
+Update snap
+Show dev settings by default
+custom DPI settings 
+volume rocker wake
+change color in battery saver
+tint layers icon
+Dark Mode update, fixes
+Navbar customization
+QS customizations - draggable tile implementation
+Changelog generator in settings/about
+Fix lockscreen security for some devices﻿
+
+OrionOS 2.1 changelog 
 Android 6.0.1 r10 - rebased to AOSPB
-Fix OTA
+Fix OTA 
 Volume long press skip tracks
-Volume buttons cursor control
+volume buttons cursor control
 Ime notification toggle
 Add Viper back
 Doze
-Use power button as camera shutter
+use power button as camera shutter
 Hide adb notification toggle
 Make clock and time clickable in statusbar
 Power menu customization
@@ -121,11 +179,11 @@ Buttons: Add recents customization
 Lockscreen Wallpaper
 CM Browser
 System UI tuner enabled by default
-Layers 4.0 commits
+Layers 4.0 commits 
 Configurable dashboard columns
 Fix advanced reboot
 
-[U]2.0[/U]
+2.0 
 First M build
 
  [/code][/B][/CENTER]
@@ -137,9 +195,10 @@ First M build
 [CENTER][IMG]http://i.imgur.com/0PIJbQJ.png[/IMG][/CENTER]
 
 [CENTER][SIZE="4"]
-AOSPB
 SlimRoms
 CyanogenMod
 TipsyOS, martinusbe (big thanks)
 Layers team
+AOSPB
+ViPer520
 [/SIZE][/CENTER]
