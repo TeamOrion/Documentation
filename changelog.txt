@@ -246,7 +246,7 @@ Layers 4.0 commits
 Configurable dashboard columns
 Fix advanced reboot
 
-19th Fev - 12th build [2.2]
+19th Feb - 12th build [2.2]
 Update Contexual panel on-the-fly
 Extend day night to telephony apps 
 Fix msim call notifications 
@@ -269,3 +269,5 @@ tint layers icon
 Dark Mode update, fixes
 Navbar customization
 QS customizations - draggable tile implementation
+Changelog generator
+Fix lockscreen security for few devices
