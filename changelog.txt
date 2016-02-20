@@ -246,3 +246,26 @@ Layers 4.0 commits
 Configurable dashboard columns
 Fix advanced reboot
 
+19th Fev - 12th build [2.2]
+Update Contexual panel on-the-fly
+Extend day night to telephony apps 
+Fix msim call notifications 
+Telephony updates 
+Flip to mute ringer
+Proximity speaker
+Fix contacts app FAB
+Disable haptic feedback and sounds by default
+Enable advanced reboot by default
+Hide lockscreen clock and date
+Fix ram bar in recents for 3gb ram
+Google keyboard as default
+Update Viper4Android to 2.4.0.1 Thanks Viper520
+Update snap
+Show dev settings by default
+custom DPI settings 
+volume rocker wake
+change color in battery saver
+tint layers icon
+Dark Mode update, fixes
+Navbar customization
+QS customizations - draggable tile implementation
