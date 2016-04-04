@@ -271,3 +271,40 @@ Navbar customization
 QS customizations - draggable tile implementation
 Changelog generator
 Fix lockscreen security for few devices
+
+4th April - 13th build [2.3] 
+Base updated to 6.0.1_r22
+Quick pulldown
+Task Manager
+Rework QS 
+Toggle lockscreen media art
+Volume rock wake
+Orion Headers
+Live volume steps
+navbar ime arrows
+Dashboard switches
+New QS tiles
+Heads-up toggle
+Advanced ambient display
+Update dark mode
+Orion logo in recents 
+Materialize toast icon
+Fix missed call notifications
+Ability to pause/resume downloads
+Update SuperSU to 2.65
+Update LayersManager to 4.4.2
+Dashboard tileview toggle
+Dashboard dividers toggle
+Extend night mode to telephony apps
+Wave and pocket gestures ( Motodoze ) 
+Update Lockscreen wall with sysui restart
+Update Google Keyboard
+Battery and notification lights
+Organize About phone settings 
+Fix bluetooth share FC
+Add quick unlock
+Add CM lockscreen security
+Fix lockscreen
+Fix issues in camera
+Per app keyguard notifications
+ 
