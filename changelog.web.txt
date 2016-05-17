@@ -1,6 +1,3 @@
-<b>Changelog
-Changelog for builds</b>
-
 <u>4th July - 1st build [1.0]</u>
 Battery bar
 Weather in status bar
