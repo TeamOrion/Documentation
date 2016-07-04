@@ -17,7 +17,7 @@
 
 [CENTER][IMG]http://i.imgur.com/yBIvn2u.png[/IMG][/CENTER]
 
-[SIZE="4"]OrionOS is a project based on AOSPB. The name Orion was chosen as a representation of the beauty and vastness of world around us (Too much Philosophy, eh? :P ). We started this project for falcon (Moto G), to make a stable Rom which would include Bitsyko layers and important customization. The Rom is built with Uber toolchain which delivers awesome smoothness and is packed with a custom kernel built from ground-up to ensure good performance [WIP].  Needless to say, this project is a product of our hobbies and the love we bore for Android. [/SIZE]
+[SIZE="4"]OrionOS is a project based on slim. The name Orion was chosen as a representation of the beauty and vastness of the world around us (Too much Philosophy, eh? :P ). We started this project for Falcon (Moto G), to make a stable Rom, which would include Bitsyko layers and important customization. The Rom is built with Uber toolchain which delivers awesome smoothness and includes a custom kernel built from ground-up to ensure good performance [WIP].  Needless to say, this project is a product of our hobbies and the love we bore for Android. [/SIZE]
 
 [CENTER][IMG]http://i.imgur.com/4M1C0cT.png[/IMG][/CENTER]
 
@@ -26,10 +26,8 @@
  [MENTION=4139665]martinusbe[/MENTION]
  [MENTION=5272996]srisurya95[/MENTION]
  [MENTION=5857055]Flashhhh[/MENTION]
- [MENTION=5175623]Aayushya[/MENTION]
  [MENTION=5586070]Shelbin Kidangan[/MENTION]
  [MENTION=6143324]Luis Hagenauer[/MENTION]
- Nevo Levin
  [MENTION=5854483]Akhil Narang[/MENTION]	
 [/CENTER][/SIZE]
 
@@ -37,27 +35,32 @@
 [CENTER]
 [B][I][U]Features[/U][/I][/B]
 [code]
-**Main Features List** - 
-
 *OrionOS  Features List*
 
-Android 6.0.1_r10 based on AOSPB
+Android 6.0.0 r46 based on AOSPB
 
 Statusbar customizations:
-- Statusbar icons
-- Quick Settings (draggable)
 - Clock settings
 - Battery styles
 - Battery bar
 - Network traffic
 - Double tap on statusbar to sleep 
 - Carrier Label
-- Custom Headers - Normal, Modern, PolyHD
+- Custom Headers - Normal, Modern, PolyHD, Orion
 - Weather in status bar
+- Quick Pulldown
+- Task manager 
+- Four tile QS toggle
+- Force Expanded Notifications
+- Immersive message toggle
+- Notification count
+- Breathing missed call
+- Breathing voice mail
+
 Recents:
 - Slim Recents
-- Clear all recent FAB with 6 positions
-- RAM memory bar in recents
+- Clear all recent FAB with six positions
+- RAM/memory bar in recents
 - Full screen recents
 - Show search bar in recents
 - Show running apps only
@@ -66,27 +69,54 @@ Buttons:
 - Home, Menu, Recents button rebinding
 - Volume key cursor control
 - Volume key playback control
-- Volume button wake 
+- Notification slider [supported devices]
+- Volume rocker wake
+- Keyboard cursor control
+- Swap hardware buttons 
 
 Power Menu: 
 - Power Off, Reboot, Screenshot, Airplane Mode, User Switcher, Sound Panel, Bug Report
 
 Lockscreen Tweaks:
 - Lockscreen wallpaper 
-- Show/Hide Lockscreen Clock and date
+- Toggle Lockscreen date, columns ,time
+- Toggle Lockscreen media art
+- Lockscreen Weather
 
-Navigation
-- Navigation bar customizations
+Navigation 
+- Navigation bar buttons
+- Navigation bar dimensions
+- Navbar ime arrows 
 
-Custom LCD Density 
+Gestures:
+- Ambient Display
+- Pocket mode
+- Hand Wave
 
 Security:
 - Advanced Reboot
+- CM Lockscreen
 - Double tap to sleep on lockscreen
 - Quick unlock
 - Pin scramble
 - Screen pinning
+- Disable QS on secured lockscreen
 
+Display
+- Advanced Ambient Display
+- Dcolumns, switches, dividers, tile view
+- LCD density
+
+
+Sound and Notification
+- Volume Steps
+- Notification Lights
+- Heads up toggle
+- Unlink notification and ringtone volume
+- Vibrate for calls
+- Screenshot sound toggle
+- Prevent audio ducking
+- Battery Lights
 
 Misc:
 - New Icon and logo
@@ -94,18 +124,18 @@ Misc:
 - Dark theme switch (many improvements on various preinstalled apps)
 - Pre-rooted
 - Layers Manager
-- Uber 5.3
+- Uber 4.9
 - Messenger instead of MMS (with NightMode)
 - Update gallery (design tweaks)
 - OTA (in device info)
 - SuperSu in settings
 - CM Browser 
-- Viper4Android 2.4.0.1
-- Dashboard columns 
-- Ime selector notification
+- Viper4Android
+- IME selector notification
 - USB debug notify toggle
-- DayNight theme
-- GoogleKeyboard by default
+- SystemUI tuner by default
+- Google Keyboard by default
+- Orion changelog
 [/code]
 [/CENTER]
 
@@ -131,9 +161,74 @@ Enjoy
 [CENTER][IMG]http://i.imgur.com/U9EFNgw.png[/IMG][/CENTER]
 [CENTER][B][code]
 
-Orion 2.2 Changelog 
+4th July - 14th Build [2.4]
+r46, June Security patch
+Better density implementation
+Breathing missed call/voicemail
+Force expanded notifications
+Disable Qs on secure lock screen
+Disable Screenshot sound
+Disable immersive messages
+Notification counter
+Swap HW buttons
+Download speeds
+Show charging current on LS
+Pause/resume downloads
+Updated translations
+Vibrate for calls
+Unlink notification and ringer volume
+Lockscreen Weather
+Fix Clock FC 
+Fix notification light FC
+Fix charging in charging mode
+Updated Layers Manager
+Updated SuperSU 2.74
+Updated Google Keyboard
+Updated Toolchain
+New Settings Logo
+Add SystemUI restart option in Statusbar settings
+Task Manager, 4 col QS, LS wallpaper needs sys UI restart now
+Fix NFC
+Add Permission dialogs and Dialer layers commits﻿
 
-Update Contexual panel on-the-fly
+4th April - 13th build [2.3] 
+Base updated to 6.0.1_r22
+Quick pulldown
+Task Manager
+Rework QS 
+Toggle lockscreen media art
+Volume rock wake
+Orion Headers
+Live volume steps
+navbar ime arrows
+Dashboard switches
+New QS tiles
+Heads-up toggle
+Advanced ambient display
+Update dark mode
+Orion logo in recents 
+Materialize toast icon
+Fix missed call notifications
+Ability to pause/resume downloads
+Update SuperSU to 2.65
+Update LayersManager to 4.4.2
+Dashboard tileview toggle
+Dashboard dividers toggle
+Extend night mode to telephony apps
+Wave and pocket gestures ( Motodoze ) 
+Update Lockscreen wall with sysui restart
+Update Google Keyboard
+Battery and notification lights
+Organize About phone settings 
+Fix Bluetooth share FC
+Add quick unlock
+Add CM lockscreen security
+Fix lockscreen
+Fix issues in camera
+Per app keyguard notifications 
+
+Orion 2.2 Changelog 
+Update Contextual panel on-the-fly
 Extend day night to telephony apps 
 Fix msim call notifications 
 Telephony updates 
@@ -166,7 +261,7 @@ volume buttons cursor control
 Ime notification toggle
 Add Viper back
 Doze
-use power button as camera shutter
+use the power button as a camera shutter
 Hide adb notification toggle
 Make clock and time clickable in statusbar
 Power menu customization
