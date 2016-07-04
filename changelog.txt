@@ -325,7 +325,8 @@ Updated translations
 Vibrate for calls
 Unlink notification and ringer volume
 Lockscreen Weather
-Fix Clock FC  
+Fix Clock FC
+Fix Bluetooth FC
 Fix notification light FC
 Fix charging in charging mode 
 Updated Layers Manager
