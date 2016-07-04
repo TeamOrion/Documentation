@@ -301,3 +301,33 @@ Add CM lockscreen security
 Fix lockscreen
 Fix issues in camera
 Per app keyguard notifications
+
+<u>4th July - 14th build [2.4] </u>
+r46, June Security patch
+Better density implementation
+Breathing missed call/voicemail
+Force expanded notifications
+Disable Qs on secure lock screen
+Disable Screenshot sound
+Disable immersive messages
+Notification counter
+Swap HW buttons
+Download speeds
+Show charging current on LS
+Pause/resume downloads
+Updated translations
+Vibrate for calls
+Unlink notification and ringer volume
+Lockscreen Weather
+Fix Clock FC  
+Fix notification light FC
+Fix charging in charging mode 
+Updated Layers Manager
+Updated SuperSU 2.74
+Updated Google Keyboard
+Updated Toolchain
+New Settings Logo
+Add SystemUI restart option in Statusbar settings
+Task Manager, 4 col QS, LS wallpaper needs sys UI restart now
+Fix NFC
+Add Permission dialogs and Dialer layers commits
