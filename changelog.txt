@@ -338,3 +338,21 @@ Add SystemUI restart option in Statusbar settings
 Task Manager, 4 col QS, LS wallpaper needs sys UI restart now
 Fix NFC
 Add Permission dialogs and Dialer layers commits
+
+4th August - 15th Build [2.5]
+r62, August  patch
+OMS
+Add Substratum
+Remove layers and add Substratum 171 in settings
+Updated SuperSU to 2.76
+Add System mode SuperSU
+Updated Webview
+Remove duplicate ringtone 
+Updated LockClock, Snap
+Updated Google Keyboard
+Fix Alarm FC
+Add Camera shutter sound toggle
+Tint Settings banner
+Fix Missed calls
+Toggles for Statusbar Icons
+Nuked Email app
