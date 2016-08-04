@@ -1,4 +1,4 @@
-[CENTER][IMG]http://i.imgur.com/Y31ZF5J.jpg[/IMG][/CENTER]
+[CENTER][IMG] http://i.imgur.com/Y31ZF5J.jpg[/IMG][/CENTER]
 
 [CENTER][SIZE="6"]Official Google Plus community:- [/SIZE][/CENTER]
 
@@ -37,7 +37,7 @@
 [code]
 *OrionOS  Features List*
 
-Android 6.0.1 r46 based on AOSPB
+Android 6.0.1 r62 based on AOSP
 
 Statusbar customizations:
 - Clock settings
@@ -56,6 +56,7 @@ Statusbar customizations:
 - Notification count
 - Breathing missed call
 - Breathing voice mail
+- Statusbar Icon toggle
 
 Recents:
 - Slim Recents
@@ -83,7 +84,7 @@ Lockscreen Tweaks:
 - Toggle Lockscreen media art
 - Lockscreen Weather
 
-Navigation 
+Navigation:
 - Navigation bar buttons
 - Navigation bar dimensions
 - Navbar ime arrows 
@@ -102,13 +103,12 @@ Security:
 - Screen pinning
 - Disable QS on secured lockscreen
 
-Display
+Display:
 - Advanced Ambient Display
 - Dcolumns, switches, dividers, tile view
 - LCD density
 
-
-Sound and Notification
+Sound and Notification:
 - Volume Steps
 - Notification Lights
 - Heads up toggle
@@ -117,13 +117,16 @@ Sound and Notification
 - Screenshot sound toggle
 - Prevent audio ducking
 - Battery Lights
+- Disable camera sounds
+
+OMS 
 
 Misc:
 - New Icon and logo
 - New bootanimation
 - Dark theme switch (many improvements on various preinstalled apps)
 - Pre-rooted
-- Layers Manager
+- Substratum
 - Uber 4.9
 - Messenger instead of MMS (with NightMode)
 - Update gallery (design tweaks)
@@ -160,6 +163,24 @@ Enjoy
 
 [CENTER][IMG]http://i.imgur.com/U9EFNgw.png[/IMG][/CENTER]
 [CENTER][B][code]
+
+4th August - 15th Build [2.5]
+r62, August patch
+OMS
+Add Substratum
+Remove layers and add Substratum 171 in settings
+Updated SuperSU to 2.76
+Add System mode SuperSU
+Updated Webview
+Remove duplicate ringtone 
+Updated LockClock, Snap
+Updated Google Keyboard
+Fix Alarm FC
+Add Camera shutter sound toggle
+Tint Settings banner
+Fix Missed calls
+Toggles for Statusbar Icons
+Nuked Email app﻿
 
 4th July - 14th Build [2.4]
 r46, June Security patch
@@ -293,7 +314,7 @@ First M build
 SlimRoms
 CyanogenMod
 TipsyOS, martinusbe (big thanks)
-Layers team
+Substratum team
 AOSPB
 ViPer520
 [/SIZE][/CENTER]
