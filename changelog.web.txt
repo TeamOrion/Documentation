@@ -350,3 +350,29 @@ Tint Settings banner
 Fix Missed calls
 Toggles for Statusbar Icons
 Nuked Email app
+
+<u>5th September - 16th build [2.6]</u>
+Fix ime back arrow animation
+Update Substratum
+Add Slim's hardware key rebinding
+Trigger sysui on toggling navbar
+Move hardware button menu into navigation
+Disable hw buttons for devices with no hw keys
+Fix notification lights
+Update webview
+Add a overlay bool to enable dark theme by default
+Aospa battery
+Revert CMQS
+Add tiles to Aosp QS
+Update OTA name, icons to Orion
+Remove LS charging stats
+Fix Day night in messaging, Contacts, Dialers, DocsUI
+Dark theme by default
+Add blurUI
+Allow custom carrier label for msim
+Set number of tile columns
+Toggle to enlarge top row of tiles
+Update bootanimation
+Change DPI implementation
+Fix center clock and notification overlap
+Update Snap
