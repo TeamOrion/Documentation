@@ -78,7 +78,7 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 			
 			d)				#default
 				printf "$blu building dirty (default)$end\n"
-				make dirty
+				#make dirty
 				;;
 			
 			\?) 
@@ -100,7 +100,10 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 		fi
 		
 	# compile
-	eval "brunch $2 2>&1 | tee $(date +%Y%m%d)-$device.log"
+	eval "lunch orion_$2-userdebug"
+    cores=$(nproc | tee >&1)
+	eval "make -j$cores"
+	#eval "brunch $2 2>&1 | tee $(date +%Y%m%d)-$device.log"
 			
 else 
 	echo "$red Error$end"
