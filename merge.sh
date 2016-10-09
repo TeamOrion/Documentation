@@ -13,7 +13,7 @@ echo -e ""
 echo "Merging $repos"
 echo -e ""
 cd $repos;
-git fetch https://android.googlesource.com/platform/$repos -qt && git merge $TAG;
+git fetch https://android.googlesource.com/platform/$repos $TAG -q && git merge --no-edit FETCH_HEAD;
 if [ $? -ne 0 ];
 then
 echo "$repos" >> ${ORIONPATH}/failed
