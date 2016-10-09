@@ -1,4 +1,11 @@
-#!/usr/bin/env bash
+#!/bin/bash
+
+#COLORS -
+red=$'\e[1;31m'
+grn=$'\e[1;32m'
+blu=$'\e[1;34m'
+end=$'\e[0m'
+
 
 # Assumes source is in users home in a directory called "orion"
 export ORIONPATH="${HOME}/orion"
@@ -10,25 +17,25 @@ export TAG="android-6.0.1_r72"
 for repos in $(grep 'remote="orion"' ${ORIONPATH}/.repo/manifests/default.xml  | awk '{print $2}' | cut -d '"' -f2)
 do
 echo -e ""
-echo "Merging $repos"
+echo "$blu Merging $repos $end"
 echo -e ""
 cd $repos;
 git fetch https://android.googlesource.com/platform/$repos $TAG -q && git merge --no-edit FETCH_HEAD;
 if [ $? -ne 0 ];
 then
 echo "$repos" >> ${ORIONPATH}/failed
-echo "$repos failed :C"
+echo "$red $repos failed :C $end"
 else
 echo "$repos" >> ${ORIONPATH}/success
-echo "$repos succeeded"
+echo "$grn $repos succeeded $end"
 fi
 echo -e ""
 cd ${ORIONPATH};
 done
 
 echo -e ""
-echo -e "These repos failed"
+echo -e "$red These repos failed $end"
 cat ./failed
 echo -e ""
-echo -e "These succeeded"
+echo -e "$grn These succeeded $end"
 cat ./success
