@@ -13,10 +13,14 @@ cd $repos;
 git fetch https://android.googlesource.com/platform/$repos && git merge $TAG;
 if [ $? -ne 0 ];
 then
-echo "$repos" >> failed
+echo "$repos" >> ${ORIONPATH}/failed
 else
-echo "$repos" >> success
+echo "$repos" >> ${ORIONPATH}/success
 fi
 cd ${ORIONPATH};
 done
 
+echo -e "These repos failed"
+cat ./failed
+echo -e "These succeeded"
+cat ./success
