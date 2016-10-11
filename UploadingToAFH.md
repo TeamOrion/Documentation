@@ -17,3 +17,8 @@ Now upload your file:
     sftp> put filename
 
 Done!
+
+Simpler way for lazy guys
+```
+curl -T ftp://USER:PASS@uploads.androidfilehost.com/ OrionOS-*.zip
+```
