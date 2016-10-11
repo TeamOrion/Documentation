@@ -13,10 +13,15 @@ export ORIONPATH="${HOME}/orion"
 # Set the tag you want to merge
 export TAG="android-6.0.1_r72"
 
+do_not_merge="vendor_orion external_chromium-webview"
 # Orion manifest is setup with path first, then repo name, so the path attribute is after 2 spaces, and the name within "" in it
 for repos in $(grep 'remote="orion"' ${ORIONPATH}/.repo/manifests/default.xml  | awk '{print $2}' | cut -d '"' -f2)
 do
 echo -e ""
+if [[ "${do_not_merge}" =~ "${repos}" ]];
+then
+echo -e "${repos} is not to be merged";
+else
 echo "$blu Merging $repos $end"
 echo -e ""
 cd $repos;
@@ -31,6 +36,7 @@ echo "$grn $repos succeeded $end"
 fi
 echo -e ""
 cd ${ORIONPATH};
+fi
 done
 
 echo -e ""
