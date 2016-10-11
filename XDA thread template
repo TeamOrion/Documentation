@@ -28,7 +28,8 @@
  [MENTION=5857055]Flashhhh[/MENTION]
  [MENTION=5586070]Shelbin Kidangan[/MENTION]
  [MENTION=6143324]Luis Hagenauer[/MENTION]
- [MENTION=5854483]Akhil Narang[/MENTION]	
+ [MENTION=5854483]Akhil Narang[/MENTION]
+ [MENTION=5259260]Bishal Goswami[/MENTION]
 [/CENTER][/SIZE]
 
 [CENTER][IMG]http://i.imgur.com/7C4PzRA.png[/IMG][/CENTER]
@@ -37,7 +38,7 @@
 [code]
 *OrionOS  Features List*
 
-Android 6.0.1 r62 based on AOSP
+Android 6.0.1 r72 based on AOSP
 
 Statusbar customizations:
 - Clock settings
@@ -88,6 +89,7 @@ Navigation:
 - Navigation bar buttons
 - Navigation bar dimensions
 - Navbar ime arrows 
+- Custom HW Keys
 
 Gestures:
 - Ambient Display
@@ -142,7 +144,7 @@ Misc:
 [/code]
 [/CENTER]
 
-[CENTER][IMG] http://i.imgur.com/1od2nC8.png[/IMG][/CENTER]
+[CENTER][IMG]http://i.imgur.com/1od2nC8.png[/IMG][/CENTER]
 
 [CENTER][IMG]http://i.imgur.com/Tt095SN.png[/IMG][/CENTER]
 
@@ -163,6 +165,52 @@ Enjoy
 
 [CENTER][IMG]http://i.imgur.com/U9EFNgw.png[/IMG][/CENTER]
 [CENTER][B][code]
+
+10th October - 20th build [2.7]
+6.0.1_r72, October patch
+Sepolicy updates for sdcardfs
+Fix VoLTE for some devices
+Telephony updates
+Add cdma call forwarding
+Speedup FP unlock
+Cleanups
+Update Substratum [231]
+
+10th September - 16th build [2.6.1]
+6.0.1_r67, September Patch
+Add a toggle for navbar DT2S
+Make LCD Density streamlined
+Add Brightness QS tile
+Add Check Proximty on wake
+Update APNs
+Crash Fixes
+Stability improvement
+
+5th September - 10th build [2.6]
+Fix ime back arrow animation
+Update Substratum
+Add Slim's hardware key rebinding
+Trigger sysui on toggling navbar
+Move hardware button menu into navigation
+Disable hw buttons for devices with no hw keys
+Fix notification lights
+Update webview
+Add a overlay bool to enable dark theme by default
+Aospa battery
+Revert CMQS
+Add tiles to Aosp QS
+Update OTA name, icons to Orion
+Remove LS charging stats
+Fix Day night in messaging, Contacts, Dialers, DocsUI
+Dark theme by default
+Add blurUI
+Allow custom carrier label for msim
+Set number of tile columns
+Toggle to enlarge top row of tiles
+Update bootanimation
+Change DPI implementation
+Fix center clock and notification overlap
+Update Snap
 
 4th August - 15th Build [2.5]
 r62, August patch
