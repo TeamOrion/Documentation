@@ -40,6 +40,7 @@
 
 Android 6.0.1 r72 based on AOSP
 
+
 Statusbar customizations:
 - Clock settings
 - Battery styles
@@ -49,9 +50,10 @@ Statusbar customizations:
 - Carrier Label
 - Custom Headers - Normal, Modern, PolyHD, Orion
 - Weather in status bar
+- Tiles per row configuration
+- Enlarge first row
 - Quick Pulldown
 - Task manager 
-- Four tile QS toggle
 - Force Expanded Notifications
 - Immersive message toggle
 - Notification count
@@ -89,12 +91,19 @@ Navigation:
 - Navigation bar buttons
 - Navigation bar dimensions
 - Navbar ime arrows 
-- Custom HW Keys
+- Custom HW button actions
 
 Gestures:
 - Ambient Display
 - Pocket mode
 - Hand Wave
+
+Blur UI
+-  Statusbar background
+- Notifications
+- Statusbar Header
+- Quick Settings
+- Recents Panel
 
 Security:
 - Advanced Reboot
