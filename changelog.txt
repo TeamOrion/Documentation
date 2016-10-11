@@ -357,7 +357,7 @@ Fix Missed calls
 Toggles for Statusbar Icons
 Nuked Email app
 
-5th September - 16th build [2.6]
+5th September - 10th build [2.6]
 Fix ime back arrow animation
 Update Substratum
 Add Slim's hardware key rebinding
@@ -382,3 +382,23 @@ Update bootanimation
 Change DPI implementation
 Fix center clock and notification overlap
 Update Snap
+
+10th September - 16th build [2.6.1]
+Merge 6.0.1_r67 (September Update)
+Add a toggle for navbar DT2S
+Make LCD Density streamlined
+Add Brightness QS tile
+Add Check Proximty on wake
+Update APNs
+Crash Fixes
+Stability improvement
+
+10th October - 20th build [2.7]
+Merge 6.0.1_r72 (October patch)
+Sepolicy updates for sdcardfs
+Fix VoLTE for some devices
+Telephony updates
+Add cdma call forwarding
+Speedup FP unlock
+Cleanups
+Update Substratum [231]
