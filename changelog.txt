@@ -398,6 +398,7 @@ Merge 6.0.1_r72 (October patch)
 Sepolicy updates for sdcardfs
 Fix VoLTE for some devices
 Telephony updates
+Call vibration at pickup
 Add cdma call forwarding
 Vibrate on call connect
 Speedup FP unlock
