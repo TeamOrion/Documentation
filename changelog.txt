@@ -14,7 +14,7 @@ arrow keys for navigation
 Slim updates
 Orion Kernel for falcon
 msim fixes
-Orion bootanimation (wip) 
+Orion bootanimation (wip)
 Add cellular networks in settings dashboard
 set default sim1,sim2, notification tones
 Add smart pulldown to SlimActions
@@ -22,7 +22,7 @@ statusbar ticker
 Pre-rooted
 updated from r5 to r8
 Layers Manager updated
-Added network speed 
+Added network speed
 Music tile
 reboot tile
 Non intrusive call UI switch
@@ -52,7 +52,7 @@ Force expanded notifications
 seconds clock
 clock fonts
 volume long press skip tracks
-Enable performance profiles 
+Enable performance profiles
 Charging sounds/vibrate
 Notification light
 Notification access
@@ -104,8 +104,8 @@ reduce battery padding
 fix OTA
 Fix recents clear all. Also make bottom right default
 Fix settings>more>cellular networks for msim
-Lockscreen wallpaper 
-Layers type 3 commits 
+Lockscreen wallpaper
+Layers type 3 commits
 prevent audio ducking
 vectorize universe and layers icons
 Power/Global menu
@@ -167,11 +167,11 @@ Change lockscreen wallpaper implementation
 Upgrade to r18
 Show running apps in recents by default
 Disable double tap on lockscreen by default
-Enable task manager by default 
+Enable task manager by default
 Update default walls
 Fix glitches in recents
 Fix dual non-intrusive entries in dialer settings
-device and kernel updates 
+device and kernel updates
 Tons of slim updates
 Add cm lock security ( variable grid patterns )
 Live display fixes
@@ -180,13 +180,13 @@ Live display fixes
 update to 5.1.1_r24
 Update layers manager
 Update Kernel Aduitor
-Lockscreen blur 
+Lockscreen blur
 google webview
 Contextual panel toggle - normal, poly HD, modern  modes
 Screen recording
 Inbuilt quickboot support (thanks arter97 for QuickBoot)
 Disable haptic feedback by default
-Add animation slider 
+Add animation slider
 Fix task manager glitches
 Security patches
 slim updates
@@ -223,7 +223,7 @@ Misc:
 28th January - 11th build [2.1]
 
 Android 6.0.1 r10 - rebased to AOSPB
-Fix OTA 
+Fix OTA
 Volume long press skip tracks
 volume buttons cursor control
 Ime notification toggle
@@ -242,15 +242,15 @@ Buttons: Add recents customization
 Lockscreen Wallpaper
 CM Browser
 System UI tuner enabled by default
-Layers 4.0 commits 
+Layers 4.0 commits
 Configurable dashboard columns
 Fix advanced reboot
 
 19th Feb - 12th build [2.2]
 Update Contexual panel on-the-fly
-Extend day night to telephony apps 
-Fix msim call notifications 
-Telephony updates 
+Extend day night to telephony apps
+Fix msim call notifications
+Telephony updates
 Flip to mute ringer
 Proximity speaker
 Fix contacts app FAB
@@ -262,7 +262,7 @@ Google keyboard as default
 Update Viper4Android to 2.4.0.1 Thanks Viper520
 Update snap
 Show dev settings by default
-custom DPI settings 
+custom DPI settings
 volume rocker wake
 change color in battery saver
 tint layers icon
@@ -272,11 +272,11 @@ QS customizations - draggable tile implementation
 Changelog generator
 Fix lockscreen security for few devices
 
-4th April - 13th build [2.3] 
+4th April - 13th build [2.3]
 Base updated to 6.0.1_r22
 Quick pulldown
 Task Manager
-Rework QS 
+Rework QS
 Toggle lockscreen media art
 Volume rock wake
 Orion Headers
@@ -287,7 +287,7 @@ New QS tiles
 Heads-up toggle
 Advanced ambient display
 Update dark mode
-Orion logo in recents 
+Orion logo in recents
 Materialize toast icon
 Fix missed call notifications
 Ability to pause/resume downloads
@@ -296,19 +296,19 @@ Update LayersManager to 4.4.2
 Dashboard tileview toggle
 Dashboard dividers toggle
 Extend night mode to telephony apps
-Wave and pocket gestures ( Motodoze ) 
+Wave and pocket gestures ( Motodoze )
 Update Lockscreen wall with sysui restart
 Update Google Keyboard
 Battery and notification lights
-Organize About phone settings 
+Organize About phone settings
 Fix bluetooth share FC
 Add quick unlock
 Add CM lockscreen security
 Fix lockscreen
 Fix issues in camera
 Per app keyguard notifications
- 
-4th July - 14th Build [2.4] 
+
+4th July - 14th Build [2.4]
 r46, June Security patch
 Better density implementation
 Breathing missed call/voicemail
@@ -328,7 +328,7 @@ Lockscreen Weather
 Fix Clock FC
 Fix Bluetooth FC
 Fix notification light FC
-Fix charging in charging mode 
+Fix charging in charging mode
 Updated Layers Manager
 Updated SuperSU 2.74
 Updated Google Keyboard
@@ -347,7 +347,7 @@ Remove layers and add Substratum 171 in settings
 Updated SuperSU to 2.76
 Add System mode SuperSU
 Updated Webview
-Remove duplicate ringtone 
+Remove duplicate ringtone
 Updated LockClock, Snap
 Updated Google Keyboard
 Fix Alarm FC
@@ -357,7 +357,7 @@ Fix Missed calls
 Toggles for Statusbar Icons
 Nuked Email app
 
-5th September - 10th build [2.6]
+5th September - 16th build [2.6]
 Fix ime back arrow animation
 Update Substratum
 Add Slim's hardware key rebinding
@@ -383,7 +383,7 @@ Change DPI implementation
 Fix center clock and notification overlap
 Update Snap
 
-10th September - 16th build [2.6.1]
+10th September - 17th build [2.6.1]
 Merge 6.0.1_r67 (September Update)
 Add a toggle for navbar DT2S
 Make LCD Density streamlined
@@ -393,12 +393,13 @@ Update APNs
 Crash Fixes
 Stability improvement
 
-10th October - 20th build [2.7]
+10th October - 18th build [2.7]
 Merge 6.0.1_r72 (October patch)
 Sepolicy updates for sdcardfs
 Fix VoLTE for some devices
 Telephony updates
 Add cdma call forwarding
+Vibrate on call connect
 Speedup FP unlock
 Cleanups
 Update Substratum [231]
