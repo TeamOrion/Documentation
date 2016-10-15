@@ -2,9 +2,9 @@
 ota_url=https://raw.githubusercontent.com/TeamOrion-Devices/OTA/master/OrionOTA.xml
 release_type=Stable
 device_name=ro.orion.device
- 
-#example ro.orion.version=OrionOS-falcon-2.0-OFFICIAL-20151229
+
+#example ro.orion.version=OrionOS-falcon-Andromeda-3.0-OFFICIAL-20161012
 version_source=ro.modversion
 version_delimiter=-
-version_position=4
+version_position=5
 version_format=yyyyMMdd

@@ -11,7 +11,7 @@ end=$'\e[0m'
 export ORIONPATH="${HOME}/orion"
 
 # Set the tag you want to merge
-export TAG="android-6.0.1_r72"
+export TAG="android-7.0.0_r14"
 
 # Orion manifest is setup with path first, then repo name, so the path attribute is after 2 spaces, and the name within "" in it
 for repos in $(grep 'remote="orion"' ${ORIONPATH}/.repo/manifests/default.xml  | awk '{print $2}' | cut -d '"' -f2)

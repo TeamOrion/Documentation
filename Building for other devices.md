@@ -15,7 +15,7 @@ cd orion
 
 Initiate the Orion repo. this will set up repo tool :
 
-repo init -u git://github.com/TeamOrion/platform_manifest.git -b 6.0.1
+repo init -u git://github.com/TeamOrion/platform_manifest.git -b n
 
 To add device specifics, do the following:
 
@@ -39,11 +39,11 @@ Using uber TC:
 Add the following lines to BoardConfig.mk  in device tree - 
 
 #Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.3-uber/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-androideabi-
 
 # Rom Toolchain
-TARGET_GCC_VERSION_EXP := 5.3-uber
+TARGET_GCC_VERSION_EXP := 4.9
 
 Add a -uber suffix to the toolchain folders in prebuilts/gcc
 
