@@ -161,7 +161,7 @@ Misc:
 
 [CENTER][SIZE="4"]
 Copy the ROM and Gapps in SD card.
-Go to your recovery - Wipe Data, Cache and Dalvik Cache.
+Go to your recovery - [B][COLOR="red"]Wipe System, Data, Cache and Dalvik Cache.[/COLOR][/B]
 Install ROM and Gapps zip.
 Reboot - 1st boot takes around 3-4 minutes. 
 Enjoy
@@ -175,18 +175,20 @@ Enjoy
 [CENTER][IMG]http://i.imgur.com/U9EFNgw.png[/IMG][/CENTER]
 [CENTER][B][code]
 
-10th October - 20th build [2.7]
-6.0.1_r72, October patch
+10th October - 18th build [2.7]
+Merge 6.0.1_r72 (October patch)
 Sepolicy updates for sdcardfs
 Fix VoLTE for some devices
 Telephony updates
+Call vibration at pickup
 Add cdma call forwarding
+Vibrate on call connect
 Speedup FP unlock
 Cleanups
 Update Substratum [231]
 
-10th September - 16th build [2.6.1]
-6.0.1_r67, September Patch
+10th September - 17th build [2.6.1]
+Merge 6.0.1_r67 (September Update)
 Add a toggle for navbar DT2S
 Make LCD Density streamlined
 Add Brightness QS tile
@@ -195,7 +197,7 @@ Update APNs
 Crash Fixes
 Stability improvement
 
-5th September - 10th build [2.6]
+5th September - 16th build [2.6]
 Fix ime back arrow animation
 Update Substratum
 Add Slim's hardware key rebinding
