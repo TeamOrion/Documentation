@@ -78,7 +78,7 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 
 			d)				#default
 				printf "$blu building dirty (default)$end\n"
-				#make dirty
+				make dirty
 				;;
 
 			\?)
