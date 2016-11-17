@@ -99,6 +99,10 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 				printf "$grn\ndevice is not supported officially; building unofficially$end\n"
 		fi
 
+	# ccache
+	printf "$grn\nEnabling CCache$end\n"
+	eval "export USE_CCACHE=1"
+
 	# compile
 	eval "lunch orion_$2-userdebug"
     cores=$(nproc | tee >&1)
