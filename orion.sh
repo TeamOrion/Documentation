@@ -104,10 +104,10 @@ elif [ "$2" != "" ]; then		#Device name given. Check flags
 	eval "export USE_CCACHE=1"
 
 	# compile
-	eval "lunch orion_$2-userdebug"
-    cores=$(nproc | tee >&1)
-	eval "make -j$cores" bacon
-	#eval "brunch $2 2>&1 | tee $(date +%Y%m%d)-$device.log"
+	#eval "lunch orion_$2-userdebug"
+    #cores=$(nproc | tee >&1)
+	#eval "make -j$cores" bacon
+	eval "brunch $2 2>&1 | tee $(date +%Y%m%d)-$device.log"
 
 else
 	echo "$red Error$end"
